@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="TDMPW_1P_PR04.MainPage">
+
+    <FlyoutPage.Flyout>
+        <ContentPage Title="PRÁCTICA 4">
+            <VerticalStackLayout
+                Spacing="25"
+                Padding="30,0"
+                VerticalOptions="Center">
+                <Image
+                    Source="calculator.png"
+                    />
+                <Label
+                Text="Calculadora de IVA e ISR"
+                FontSize="Title"
+                FontFamily="Circus"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                />
+            </VerticalStackLayout>
+        </ContentPage>
+    </FlyoutPage.Flyout>
+
+    <FlyoutPage.Detail>
+        <ContentPage>
+            <VerticalStackLayout>
+            <Label
+                Text="Bienvenido a la calculadora"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                />
+
+                <Button x:Name="btnIVA"
+                    Text="Calcular IVA"
+                        FontSize="Medium"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        Clicked="btnIVA_Clicked"
+                        Margin="20"
+                    />
+                <Button x:Name="btnISR"
+                    Text="Calcular ISR"
+                        FontSize="Medium"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        Clicked="btnISR_Clicked"
+                        Margin="20"
+                    />
+            </VerticalStackLayout>
+        </ContentPage>
+    </FlyoutPage.Detail>
+</FlyoutPage>

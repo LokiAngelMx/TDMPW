@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_1P_PR04.Isr"
+             Title="Isr">
+    <VerticalStackLayout>
+        <Image
+            Source="isr.png"
+            HeightRequest="200"
+            />
+        <Label 
+            Text="Calcula el ISR"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Entry
+            x:Name="txtMonto"
+            Text="0"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="Medium"
+            />
+        <Button x:Name="btnConvertir"
+                Text="Calcular"
+                Clicked="btnConvertir_Clicked"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                FontSize="Medium"
+                Margin="20"
+                />
+        <Label
+            x:Name="txtResultado"
+            Text="El resultado es: "
+            HorizontalOptions="Center"
+            FontSize="Medium"
+            />
+    </VerticalStackLayout>
+</ContentPage>

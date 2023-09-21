@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{724E8925-573E-40B0-B1A9-DCB419E8E19B}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="TDMPW_1P_PR02/celcius.xaml">
+    <Files>
+      <File FileName="TDMPW_1P_PR02/MainPage.xaml" Line="29" Column="45" />
+      <File FileName="TDMPW_1P_PR02/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="TDMPW_1P_PR02/celcius.xaml" Line="48" Column="26" />
+      <File FileName="TDMPW_1P_PR02/celcius.xaml.cs" Line="25" Column="2" />
+      <File FileName="TDMPW_1P_PR02/kelvin.xaml" />
+      <File FileName="TDMPW_1P_PR02/kelvin.xaml.cs" />
+      <File FileName="TDMPW_1P_PR02/Fahrenheit.xaml" />
+      <File FileName="TDMPW_1P_PR02/Fahrenheit.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TDMPW_1P_PR02" expanded="True">
+            <Node name="TDMPW_1P_PR02" expanded="True">
+              <Node name="Platforms" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="Images" expanded="True" />
+              </Node>
+              <Node name="celcius.xaml" expanded="True" selected="True" />
+              <Node name="Fahrenheit.xaml" expanded="True" />
+              <Node name="kelvin.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TDMPW__1P__PR02 PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+</Properties>

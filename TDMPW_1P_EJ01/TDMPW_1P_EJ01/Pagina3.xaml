@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_1P_EJ01.Pagina3"
+             Title="Pagina3">
+    <VerticalStackLayout>
+        <Label 
+            Text="PÁGINA IVA"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="Large"
+            Margin="20" />
+
+        <Label
+            Text="Ingrese el monto sin impuestos"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="Medium"
+            Margin="0, 100, 0, 5" />
+
+        <Entry x:Name="txtMonto"
+            Text="0"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="Medium" />
+
+        <Button
+            Text="Calcular IVA"
+            WidthRequest="200"
+            Clicked="Button_Clicked"
+            Margin="0, 30, 0, 30"/>
+
+        <Label x:Name="txtResultado"
+            Text="Resultado"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="Medium"/>
+
+        <Image
+            Source="iva.png"
+            WidthRequest="200"
+            HeightRequest="300"
+            HorizontalOptions="Center"/>
+    </VerticalStackLayout>
+</ContentPage>

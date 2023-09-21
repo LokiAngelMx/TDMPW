@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_1P_EJ06.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <CheckBox
+                    IsChecked="True"
+                    VerticalOptions="Center" />
+
+                <Label
+                    Text="Texto del check box"
+                    VerticalOptions="CenterAndExpand" />
+            </HorizontalStackLayout>
+
+            <Slider
+                x:Name="sld1"
+                Maximum="10"
+                Minimum="0"
+                MinimumTrackColor="Yellow"
+                MaximumTrackColor="Green"
+                ThumbColor="Red"
+                ValueChanged="sld1_ValueChanged"
+                IsEnabled="False" />
+
+            <Label
+                x:Name="lblSlider"
+                Text="0" />
+
+            <Stepper
+                x:Name="stp1"
+                Maximum="10"
+                Minimum="0"
+                Increment="1"
+                ValueChanged="stp1_ValueChanged" />
+
+            <Label
+                x:Name="lblStp"
+                Text="0"
+                FontSize="Medium" />
+
+            <HorizontalStackLayout>
+                <Switch
+                    x:Name="swt1"
+                    IsToggled="True"
+                    OnColor="Yellow"
+                    ThumbColor="Red"
+                    Toggled="swt1_Toggled" />
+
+                <Label
+                    x:Name="lblSwitch"
+                    Text="Switch"
+                    FontSize="Medium" />
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

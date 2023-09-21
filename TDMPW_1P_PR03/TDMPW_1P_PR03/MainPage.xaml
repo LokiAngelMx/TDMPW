@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_1P_PR03.MainPage">
+
+    <ScrollView>
+       <Grid Padding="30, 30">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Image 
+                Grid.Row="0" 
+                Grid.Column="1" 
+                Source="divisas.png" 
+                HeightRequest="200"/>
+
+            <Label 
+                Grid.Row="1" 
+                Grid.Column="1" 
+                Text="Conversor de divisas" 
+                FontSize="32" 
+                HorizontalOptions="Center" />
+
+            <Button 
+                Grid.Row="2" 
+                Grid.Column="0" 
+                x:Name="MXN" 
+                Text="MXN" 
+                Clicked="MXN_Clicked"
+                Margin="10,0,10,0"/>
+
+            <Button 
+                Grid.Row="2" 
+                Grid.Column="1" 
+                x:Name="USD"
+                Text="USD" 
+                Clicked="USD_Clicked"
+                Margin="10,0,10,0"/>
+
+            <Button 
+                Grid.Row="2" 
+                Grid.Column="3" 
+                x:Name="EUR" 
+                Text="EUR" 
+                Clicked="EUR_Clicked"
+                Margin="10,0,10,0"/>
+        </Grid>
+
+    </ScrollView>
+
+</ContentPage>

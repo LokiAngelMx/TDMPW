@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{BBE04ED3-464A-4ECE-BDB5-4C27F49BDBD4}|Default">
+  <MonoDevelop.Ide.ItemProperties.TDMPW__1P__PR04 PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TDMPW_1P_PR04/MainPage.xaml">
+    <Files>
+      <File FileName="TDMPW_1P_PR04/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="TDMPW_1P_PR04/MainPage.xaml.cs" />
+      <File FileName="TDMPW_1P_PR04/Isr.xaml" />
+      <File FileName="TDMPW_1P_PR04/Isr.xaml.cs" />
+      <File FileName="TDMPW_1P_PR04/Iva.xaml" Line="34" Column="39" />
+      <File FileName="TDMPW_1P_PR04/Iva.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TDMPW_1P_PR04" expanded="True">
+            <Node name="TDMPW_1P_PR04" expanded="True">
+              <Node name="Platforms" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="Fonts" expanded="True" />
+                <Node name="Images" expanded="True" />
+                <Node name="Styles" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="Isr.xaml" expanded="True" />
+              <Node name="Iva.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

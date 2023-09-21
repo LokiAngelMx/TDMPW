@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_1P_PR06.MainPage">
+
+    <ContentPage Title="Sinopsis"
+                 BackgroundColor="#054A91">
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+
+
+            </Grid.RowDefinitions>
+
+            <Frame
+                Grid.Column="0"
+                BorderColor="#054A91"
+                BackgroundColor="#3E7CB1"
+                CornerRadius="50"
+                Padding="20"
+                Margin="15"   
+                >
+
+                <StackLayout>
+                    <Frame
+                        Grid.Column="0"
+                Margin="0"
+                BorderColor="#DBE4EE"
+                HeightRequest="200"
+                WidthRequest="200"
+                CornerRadius="100"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                IsClippedToBounds="True"
+                >
+                        <Image
+                    Source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbbYUk3TNQ-hpvDYQcg-QqqwWVwfxZYqWCh-uNuuoWgKfcGopr"
+                    Aspect="AspectFit"
+                    HeightRequest="300"
+                    WidthRequest="300"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Margin="-150"
+                    />
+
+                    </Frame>
+
+                    <Label
+                        Text="Avatar"
+                        FontSize="Large"
+                        Margin="10"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        />
+                    <BoxView
+                        Color="#DBE4EE"
+                        HeightRequest="5"
+                        HorizontalOptions="Fill"
+                        Margin="0,20,0,20"
+                        />
+
+                    <Label
+                        Text="En el exuberante mundo alienígena de Pandora viven los Na'vi, seres que parecen primitivos pero están muy evolucionados. Debido a que el entorno del planeta es venenoso, los híbridos humanos/Na'vi, llamados Avatares, deben vincularse a las mentes humanas para permitir el libre movimiento en Pandora. Jake Sully (Sam Worthington), un ex marine paralizado, vuelve a tener movilidad gracias a uno de esos avatares y se enamora de una mujer Na'vi (Zoe Saldana). A medida que crece el vínculo con ella, él se ve arrastrado a una batalla por la supervivencia de su mundo."
+                        FontSize="18"
+                        />
+                </StackLayout>
+
+            </Frame>
+        </Grid>
+    </ContentPage>
+    <ContentPage Title="Jake Sully"
+                 BackgroundColor="#054A91">
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="4*"/>
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="9*"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+            <Frame
+                Grid.Row="0"
+                Grid.Column="0"
+               Grid.ColumnSpan="3"
+                BorderColor="#054A91"
+                BackgroundColor="#3E7CB1"
+                CornerRadius="50"
+                Padding="20"
+                Margin="15"   
+                >
+
+                <StackLayout>
+                    <HorizontalStackLayout>
+
+
+                        <Frame
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="2"
+                Margin="0"
+                BorderColor="#DBE4EE"
+                HeightRequest="200"
+                WidthRequest="200"
+                CornerRadius="100"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                IsClippedToBounds="True"
+                >
+                            <Image
+                    Source="https://static.wikia.nocookie.net/jamescameronsavatar/images/0/08/Jake_Sully_TWOW.png/revision/latest/scale-to-width-down/700?cb=20230428052619"
+                    HeightRequest="400"
+                    WidthRequest="400"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Margin="-150"
+                    />
+
+                        </Frame>
+
+                        <Label
+                        Text="Jake Sully"
+                        FontSize="Large"
+                        Margin="50"
+                        />
+                        <BoxView
+                        Color="#DBE4EE"
+                        HorizontalOptions="FillAndExpand"
+                        HeightRequest="5"
+                        Margin="10"
+                        />
+
+                    </HorizontalStackLayout>
+
+                    <Label
+                        Text="Jake Sully es el protagonista de la primera película de Avatar y un personaje importante en Avatar: The Way of Water. Es un veterano de la Marina parapléjico de 22 años al comienzo de la primera película. Jake se convierte en uno de los 20 conductores avatar conocidos y luego se convierte en un renegado después de desertar a la especie Na'vi después de presenciar la codicia y brutalidad de la RDA contra los Na'vi durante la destrucción del Árbol Hogar."
+                        FontSize="18"
+                        Margin="50"
+                        />
+                </StackLayout>
+
+            </Frame>
+            <Button
+                    Grid.Row="1"
+                    Grid.Column="0"
+
+                Margin="20,0,20,0"
+                HeightRequest="30"
+                ImageSource="like.png"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="Like_Clicked"/>
+            <Button
+                    Grid.Row="1"
+                    Grid.Column="1"
+                Margin="20,0,20,0"
+                HeightRequest="30"
+                ImageSource="dislike.png"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="Dislike_Clicked"/>
+
+            <Label
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    x:Name="lblGustaoNo2"
+                    Text="Te gustó / no te gustó este personaje"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Margin="100,0,20,0"
+                    />
+        </Grid>
+    </ContentPage>
+    <ContentPage Title="Neytiri"
+                 BackgroundColor="#054A91">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="4*"/>
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="9*"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+            <Frame
+                Grid.Row="0"
+                Grid.Column="0"
+               Grid.ColumnSpan="3"
+                BorderColor="#054A91"
+                BackgroundColor="#3E7CB1"
+                CornerRadius="50"
+                Padding="20"
+                Margin="15"   
+                >
+
+                <StackLayout>
+                    <HorizontalStackLayout>
+                        <Label
+                        Text="Neytiri"
+                        FontSize="Large"
+                        Margin="50"
+                        />
+                        <BoxView
+                        Color="#DBE4EE"
+                        HorizontalOptions="FillAndExpand"
+                        HeightRequest="5"
+                        Margin="10"
+                        />
+
+                        <Frame
+                            Grid.Row="0"
+                Grid.Column="0"
+               Grid.ColumnSpan="3"
+                Margin="0"
+                BorderColor="White"
+                HeightRequest="200"
+                WidthRequest="200"
+                CornerRadius="100"
+                HorizontalOptions="End"
+                VerticalOptions="Center"
+                IsClippedToBounds="True"
+                >
+                            <Image
+                    Source="https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1673807416054-XYCAB43IX5H5GXPF88TA/avatar-2-poster-4k-neytiri-wallp.jpg"
+                    HeightRequest="300"
+                    WidthRequest="300"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Margin="-150"
+                    />
+
+                        </Frame>
+                    </HorizontalStackLayout>
+
+                    <Label
+                        Text="Neytiri te Tskaha Mo'at'ite es la deuteragonista y heroína principal de Avatar, y un personaje importante en Avatar: The Way of Water. Neytiri, un Na'vi ágil y feroz, además de un hábil guerrero y arquero, era el tsakarem del clan Omatikaya. Es la segunda hija de Eytukan y Mo'at y la hermana menor de Sylwanin."
+                        FontSize="18"
+                        Margin="50"
+                        />
+                </StackLayout>
+
+            </Frame>
+
+            <Button
+                Grid.Row="1"
+                Grid.Column="0"
+                x:Name="Like"
+                Margin="20,0,20,0"
+                HeightRequest="30"
+                ImageSource="like.png"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="Like_Clicked"/>
+            <Button
+                Grid.Row="1"
+                Grid.Column="1"
+                x:Name="Dislike"
+                Margin="20,0,20,0"
+                HeightRequest="30"
+                ImageSource="dislike.png"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="Dislike_Clicked"/>
+
+            <Label
+                    Grid.Row="1"
+                Grid.Column="2"
+                    x:Name="lblGustaoNo"
+                    Text="Te gustó / no te gustó este personaje"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Margin="100,0,20,0"
+                    />
+
+        </Grid>
+    </ContentPage>
+</TabbedPage>

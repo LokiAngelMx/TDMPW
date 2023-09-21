@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{75C84545-8909-46D3-B3EA-F3A386E7E807}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="TDMPW_1P_PR01/MainPage.xaml">
+    <Files>
+      <File FileName="TDMPW_1P_PR01/MainPage.xaml.cs" Line="15" Column="2" />
+      <File FileName="TDMPW_1P_PR01/MainPage.xaml" Line="40" Column="15" />
+      <File FileName="TDMPW_1P_PR01/Impuestos.xaml" Line="56" Column="26" />
+      <File FileName="TDMPW_1P_PR01/Impuestos.xaml.cs" Line="17" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TDMPW_1P_PR01" expanded="True">
+            <Node name="TDMPW_1P_PR01" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="Impuestos.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TDMPW__1P__PR01 PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+</Properties>

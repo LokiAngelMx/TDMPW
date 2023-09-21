@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_1P_EJ01.Pagina2"
+             Title="Pagina2">
+    <VerticalStackLayout>
+        <!-- Este es un comentario -->
+        <Label
+            Text="PÁGINA SUMA"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="Large"
+            Margin="10"/>
+
+        <Label
+            Text="Ingrese un número"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="Medium"
+            Margin="0, 100, 0, 10"/>
+
+        <Entry x:Name="txtN1"
+            Text="0"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            WidthRequest="300"/>
+
+        <Label
+            Text="Ingrese otro número"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="Medium"
+            Margin="10"/>
+
+        <Entry x:Name="txtN2"
+            Text="0"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            WidthRequest="300" />
+
+        <Button
+            Text="Calcular"
+            WidthRequest="200"
+            FontSize="Medium"
+            Margin="0, 30, 0, 30"
+            Clicked="Button_Clicked"/> <!--El orden para el margen es izquierda, arriba, derecha, abajo-->
+
+        <Label x:Name="txtResultado"
+            Text="Resultado"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="Medium"
+            WidthRequest="300"
+            Margin="30"/>
+
+        <Image
+            Source="mas.png"
+            HorizontalOptions="Center"
+            WidthRequest="200"/>
+    </VerticalStackLayout>
+</ContentPage>

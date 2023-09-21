@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_2P_EJ01.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+            <Frame Margin="10"
+                   CornerRadius="50">
+
+                <VerticalStackLayout>
+
+                    <Label Text=".:COLOR MAKER:."
+                       FontSize="Large"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       Margin="10"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="50"
+                   CornerRadius="50"
+                   x:Name="background">
+
+                <VerticalStackLayout Spacing="50"
+                                     Padding="30,0"
+                                     VerticalOptions="Center">
+
+                    <Label Text="Valor Rojo"/>
+                    <Slider x:Name="sldR"
+                            Maximum="255"
+                            Minimum="0"
+                            ValueChanged="btnCambiar_Clicked"/>
+
+                    <Label Text="Valor Verde"/>
+                    <Slider x:Name="sldG"
+                            Maximum="255"
+                            Minimum="0"
+                            ValueChanged="btnCambiar_Clicked"/>
+
+                    <Label Text="Valor Azul"/>
+                    <Slider x:Name="sldB"
+                            Maximum="255"
+                            Minimum="0"
+                            ValueChanged="btnCambiar_Clicked"/>
+
+                    <Button x:Name="btnCopiar"
+                            Text="COPIAR"
+                            Clicked="btnCopiar_Clicked"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <BoxView x:Name="bxvVista"
+                         Color="White"
+                         WidthRequest="20"
+                         HeightRequest="20"
+                         Margin="0,0,10,0"/>
+
+                <Label x:Name="lblResultado"
+                       HorizontalOptions="Center"
+                       FontSize="Large"/>
+            </HorizontalStackLayout>
+
+            <Button x:Name="btnRandom"
+                    Text="Generar Random"
+                    Clicked="btnRandom_Clicked"
+                    Margin="10"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_1P_PR03.eur"
+             Title="EUR">
+    <Grid RowSpacing="20" ColumnSpacing="20">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0"
+               Grid.Column="1"
+               Text="EUR a MXN y USD"
+               HorizontalOptions="Center"
+               Margin="0,30,0,30"/>
+
+        <Image Grid.Row="1"
+               Grid.Column="1"
+               Source="eur.png"
+               HorizontalOptions="Center"
+               WidthRequest="200"
+               HeightRequest="200"
+               Margin="0,30,0,30"/>
+
+        <Label Grid.Row="2"
+               Grid.Column="1"
+               Text="Ingrese una cantidad en EUR"
+               HorizontalOptions="Center"
+               FontSize="Medium"
+               Margin="0,30,0,30"/>
+
+        <Entry Grid.Row="3"
+               Grid.Column="1"
+               x:Name="txtEur"
+               Text="0"
+               HorizontalOptions="Center"
+               WidthRequest="200"
+               Margin="0,30,0,30"/>
+
+        <Button Grid.Row="4"
+                Grid.Column="1"
+                x:Name="btnEur"
+                Text="Convertir"
+                WidthRequest="150"
+                FontSize="Medium"
+                HorizontalOptions="Center"
+                Clicked="btnEur_Clicked"
+                Margin="0,30,0,30"/>
+
+        <Label Grid.Row="4"
+               Grid.Column="0"
+               x:Name="txtResultadoMxn"
+               Text="MXN"
+               HorizontalOptions="Center"
+               FontSize="Medium"
+               Margin="0,30,0,30"/>
+
+        <Label Grid.Row="4"
+               Grid.Column="2"
+               x:Name="txtResultadoUsd"
+               Text="USD"
+               HorizontalOptions="Center"
+               FontSize="Medium"
+               Margin="0,30,0,30"/>
+    </Grid>
+        
+</ContentPage>

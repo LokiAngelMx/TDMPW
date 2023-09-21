@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_1P_EJ05.MainPage"
+            SelectedTabColor="DarkRed"
+            UnselectedTabColor="DarkKhaki">
+
+    <ContentPage Title="Bienvenido"
+                 IconImageSource="web.png">
+
+        <VerticalStackLayout>
+            <Label Text="BIENVENIDO"
+                   HorizontalOptions="Center"
+                   FontSize="30"
+                   FontAttributes="Bold" />
+
+            <Image Source="dotnet_bot.png" />
+
+            <Label Text="EJERCICIO 5"
+                   FontSize="Body" />
+
+            <BoxView Color="LightGray"
+                     HeightRequest="3" />
+
+            <Label Text="Uso de Tabbed Page" />
+
+        </VerticalStackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Página 2"
+                 IconImageSource="web.png">
+
+        <VerticalStackLayout>
+            <Label Text="PÁGINA 2"
+                   FontSize="40"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+
+        </VerticalStackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Página 3"
+                 IconImageSource="web.png">
+
+        <VerticalStackLayout>
+            <Label Text="PÁGINA 3"
+                   FontSize="40"
+                   HorizontalOptions="Center"
+                   Margin="30"/>
+
+            <Button x:Name="btnSaludar"
+                    Text="Saludar"
+                    Clicked="btnSaludar_Clicked"
+                    Margin="20, 0"/>
+
+            <Label x:Name="lblSaludar"
+                    Text="..."
+                    FontSize="26"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                   Margin="30"/>
+
+            <Image Source="dotnet_bot.png"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   Margin="50"/>
+
+        </VerticalStackLayout>
+    </ContentPage>
+</TabbedPage>

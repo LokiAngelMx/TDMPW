@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_1P_PR05.MainPage">
+
+    <ScrollView>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/><!--0-->
+                <ColumnDefinition Width="*"/><!--1-->
+                <ColumnDefinition Width="2*"/><!--2-->
+                <ColumnDefinition Width="*"/><!--3-->
+                <ColumnDefinition Width="*"/><!--4-->
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/><!--0-->
+                <RowDefinition Height="*"/><!--1-->
+                <RowDefinition Height="2*"/><!--2-->
+                <RowDefinition Height="*"/><!--3-->
+                <RowDefinition Height="*"/><!--4-->
+                <RowDefinition Height="*"/><!--5-->
+                <RowDefinition Height="2*"/><!--6-->
+            </Grid.RowDefinitions>
+
+            <Label
+                x:Name="lblTitle"
+                FontSize="Title"
+                Text="Juego de Sliders"
+                FontFamily="nasa"
+                Grid.Column="2"
+                Grid.Row="0"
+                HorizontalOptions="Center"
+                Margin="20"/>
+
+            <Label
+                x:Name="lblScore"
+                FontSize="Medium"
+                Text="0"
+                FontFamily="nasa"
+                Grid.Column="2"
+                Grid.Row="1"
+                HorizontalOptions="Center"/>
+
+            <Image
+                Source="juego.png"
+                Grid.Column="2"
+                Grid.Row="1"
+                HeightRequest="200"/>
+
+            <Slider
+                x:Name="sld1"
+                Maximum="10"
+                Minimum="0"
+                MinimumTrackColor="Yellow"
+                MaximumTrackColor="Green"
+                ThumbColor="Red"
+                IsEnabled="False"
+                Grid.Column="1"
+                Grid.ColumnSpan="3"
+                Grid.Row="2" />
+
+            <Slider
+                x:Name="sld2"
+                Maximum="20"
+                Minimum="11"
+                MinimumTrackColor="Yellow"
+                MaximumTrackColor="Green"
+                ThumbColor="Red"
+                IsEnabled="False"
+                Grid.Column="1"
+                Grid.ColumnSpan="3"
+                Grid.Row="3" />
+
+            <Slider
+                x:Name="sld3"
+                Maximum="30"
+                Minimum="21"
+                MinimumTrackColor="Yellow"
+                MaximumTrackColor="Green"
+                ThumbColor="Red"
+                IsEnabled="False"
+                Grid.Column="1"
+                Grid.ColumnSpan="3"
+                Grid.Row="4" />
+
+            <Button
+                x:Name="btn1"
+                Grid.Column="1"
+                Grid.Row="5"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="btn1_Clicked"/>
+
+            <Button
+                x:Name="btn2"
+                Grid.Column="3"
+                Grid.Row="5"
+                IsEnabled="False"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="btn1_Clicked" />
+        </Grid>
+    </ScrollView>
+</ContentPage>

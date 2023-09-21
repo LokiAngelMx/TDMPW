@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_1P_EJ07.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <BoxView BackgroundColor="Blue"
+                     HeightRequest="150" />
+
+            <Label Text="Hola Maui"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   HorizontalTextAlignment="Center" />
+
+            <Ellipse Fill="DarkRed"
+                     Stroke="blue"
+                     StrokeThickness="10"
+                     HeightRequest="200"
+                     WidthRequest="200"
+                     HorizontalOptions="Center" />
+
+            <Line Stroke="DarkRed"
+                  StrokeThickness="10"
+                  X1="300"
+                  Y1="0"
+                  X2="600"
+                  Y2="0" />
+
+            <Line Stroke="blue"
+                  StrokeThickness="10"
+                  X1="300"
+                  Y1="150"
+                  X2="0"
+                  Y2="0"/>
+
+            <Rectangle Fill="DarkRed"
+                       Stroke="Blue"
+                       StrokeThickness="10"
+                       HeightRequest="200"
+                       WidthRequest="200"
+                       HorizontalOptions="Center"
+                       RadiusX="50"
+                       RadiusY="50" />
+
+            <Frame BorderColor="DarkRed"
+                   CornerRadius="50"
+                   Padding="20"
+                   Margin="15">
+                <StackLayout>
+                    <Label Text="TÍTULO DE CARD"
+                           FontSize="24"
+                           FontAttributes="Bold" />
+
+                    <BoxView Color="Gray"
+                             HeightRequest="5"
+                             HorizontalOptions="Fill"
+                             Margin="0,20,0,20"/>
+
+                    <Label Text="Este es el contenido del card"
+                           FontSize="18"/>
+
+                    <Label Text="Más acerca del contenido del card"
+                           FontSize="18"/>
+
+                    <Label Text="Aún más acerca del contenido del card"
+                           FontSize="18"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame Margin="10"
+                   BorderColor="White"
+                   HeightRequest="200"
+                   WidthRequest="200"
+                   CornerRadius="100"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   IsClippedToBounds="True">
+
+                <Image Source="paisaje.jpeg"
+                       Aspect="AspectFill"
+                       HeightRequest="300"
+                       WidthRequest="300"/>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

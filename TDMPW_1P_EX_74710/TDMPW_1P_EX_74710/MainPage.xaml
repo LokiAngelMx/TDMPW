@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="TDMPW_1P_EX_74710.MainPage" >
+
+    <ContentPage Title="Página principal"
+                 IconImageSource="home.png">
+
+        <Frame>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+
+                </Grid.RowDefinitions>
+
+                <Frame
+                    Grid.Column="0"
+                    BorderColor="White"
+                    CornerRadius="50"
+                    Padding="20"
+                    Margin="15" >
+
+                    <StackLayout>
+                        <Frame
+                            Grid.Column="0"
+                            Margin="0"
+                            BorderColor="#DBE4EE"
+                            HeightRequest="200"
+                            WidthRequest="200"
+                            CornerRadius="100"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            IsClippedToBounds="True" >
+
+                            <Image
+                                Source="bienvenido.jpg"
+                                Aspect="AspectFit"
+                                HeightRequest="300"
+                                WidthRequest="300"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                Margin="-150" />
+
+                        </Frame>
+
+                        <Label
+                            Text="Bienvenido"
+                            FontSize="40"
+                            Margin="10"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center" />
+
+                        <BoxView
+                            Color="White"
+                            HeightRequest="5"
+                            HorizontalOptions="Fill"
+                            Margin="0,20,0,20" />
+
+                        <Label
+                            Text="La primer página cuenta con un programa donde se puede calcular la potencia en vatios (watts), solicitando una cantidad de amperios y voltios (P = A*V )."
+                            FontSize="18"
+                            Margin="50"
+                        />
+                        <Label
+                            Text="En la segunda página se puede calcular la potencia en watts necesaria para un proceso industrial, solicitando los Joules necesarios y el tiempo en segundos (P = J/s)."
+                            FontSize="18"
+                            Margin="50"
+                        />
+                    </StackLayout>
+                </Frame>
+            </Grid>
+        </Frame>
+    </ContentPage>
+
+    <ContentPage Title="Potencia en vatios"
+                 IconImageSource="web.png">
+        <Frame>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+
+                </Grid.RowDefinitions>
+
+                <Frame
+                    Grid.Column="0"
+                    BorderColor="White"
+                    CornerRadius="50"
+                    Padding="20"
+                    Margin="15" >
+
+                    <StackLayout>
+                        <Frame
+                            Grid.Column="0"
+                            Margin="0"
+                            BorderColor="#DBE4EE"
+                            HeightRequest="200"
+                            WidthRequest="200"
+                            CornerRadius="100"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            IsClippedToBounds="True" >
+
+                            <Image
+                                Source="rayo.png"
+                                Aspect="AspectFit"
+                                HeightRequest="300"
+                                WidthRequest="300"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                Margin="-150" />
+                        </Frame>
+
+                        <Label
+                            Text="Potencia en vatios"
+                            FontSize="40"
+                            Margin="10"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center" />
+
+                        <BoxView
+                            Color="White"
+                            HeightRequest="5"
+                            HorizontalOptions="Fill"
+                            Margin="0,20,0,20" />
+
+                        <Label
+                            Text="Programa para calcular la potencia en vatios (watts), solicitando una cantidad de amperios y voltios (P = A*V )."
+                            FontSize="18"
+                            Margin="50" />
+
+                        <Label
+                            Text="Ingrese los amperios"
+                            VerticalOptions="Center" 
+                            HorizontalOptions="Center"
+                            FontSize="Medium"
+                            Margin="0, 0, 0, 10" />
+
+                        <Entry
+                            x:Name="entAmperios"
+                            Text="0"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            WidthRequest="300" />
+
+                        <Label
+                            Text="Ingrese los voltios"
+                            VerticalOptions="Center" 
+                            HorizontalOptions="Center"
+                            FontSize="Medium"
+                            Margin="0, 0, 0, 10" />
+
+                        <Entry
+                            x:Name="entVoltios"
+                            Text="0"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            WidthRequest="300" />
+
+                        <Button
+                            x:Name="btnCalcular1"
+                            Text="Convertir"
+                            WidthRequest="200"
+                            FontSize="Medium"
+                            Margin="0, 30, 0, 10"
+                            Clicked="btnCalcular1_Clicked"/>
+
+                        <Label
+                            x:Name="txtResultadoW"
+                            Text="Resultado"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            FontSize="Medium"
+                            WidthRequest="300"
+                            Margin="30" />
+                    </StackLayout>
+                </Frame>
+            </Grid>
+        </Frame>
+    </ContentPage>
+
+    <ContentPage Title="Potencia en watts"
+                 IconImageSource="web.png">
+
+        <Frame>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+
+                </Grid.RowDefinitions>
+
+                <Frame
+                    Grid.Column="0"
+                    BorderColor="White"
+                    CornerRadius="50"
+                    Padding="20"
+                    Margin="15" >
+
+                    <StackLayout>
+                        <Frame
+                            Grid.Column="0"
+                            Margin="0"
+                            BorderColor="#DBE4EE"
+                            HeightRequest="200"
+                            WidthRequest="200"
+                            CornerRadius="100"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            IsClippedToBounds="True" >
+
+                            <Image
+                                Source="rayo.avif"
+                                Aspect="AspectFit"
+                                HeightRequest="300"
+                                WidthRequest="300"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                Margin="-150" />
+
+                        </Frame>
+
+                        <Label
+                            Text="Potencia en watts"
+                            FontSize="40"
+                            Margin="10"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center" />
+
+                        <BoxView
+                            Color="White"
+                            HeightRequest="5"
+                            HorizontalOptions="Fill"
+                            Margin="0,20,0,20" />
+
+                        <Label
+                            Text="Programa para calcular la potencia en watts necesaria para un proceso industrial, solicitando los Joules necesarios y el tiempo en segundos (P = J/s)."
+                            FontSize="18"
+                            Margin="50" />
+
+                        <Label
+                            Text="Ingrese los Joules"
+                            VerticalOptions="Center" 
+                            HorizontalOptions="Center"
+                            FontSize="Medium"
+                            Margin="0, 0, 0, 10" />
+
+                        <Entry
+                            x:Name="txtJoules"
+                            Text="0"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            WidthRequest="300" />
+
+                        <Label
+                            Text="Ingrese los segundos"
+                            VerticalOptions="Center" 
+                            HorizontalOptions="Center"
+                            FontSize="Medium"
+                            Margin="0, 0, 0, 10" />
+
+                        <Entry
+                            x:Name="txtSegundos"
+                            Text="0"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            WidthRequest="300" />
+
+                        <Button
+                            x:Name="btnCalcular2"
+                            Text="Convertir"
+                            WidthRequest="200"
+                            FontSize="Medium"
+                            Margin="0, 30, 0, 10"
+                            Clicked="btnCalcular2_Clicked"/>
+
+                        <Label
+                            x:Name="txtResultadoP"
+                            Text="Resultado"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            FontSize="Medium"
+                            WidthRequest="300"
+                            Margin="30" />
+                    </StackLayout>
+                </Frame>
+            </Grid>
+        </Frame>
+    </ContentPage>
+</TabbedPage>
