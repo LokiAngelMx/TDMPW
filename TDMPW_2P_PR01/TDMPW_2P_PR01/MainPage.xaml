@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="TDMPW_2P_PR01.MainPage">
+
+    <ContentPage Title="Inicio"
+                 BackgroundColor="#90BAAD">
+
+        <ScrollView>
+            <VerticalStackLayout HorizontalOptions="Center"
+                                 VerticalOptions="Center">
+
+                <Frame BorderColor="#ADF6B1"
+                       BackgroundColor="#A1E5AB"
+                       CornerRadius="50"
+                       Padding="20"
+                       HeightRequest="800"
+                       WidthRequest="800"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center">
+
+                    <StackLayout>
+                        <Frame Margin="0"
+                               HeightRequest="200"
+                               WidthRequest="200"
+                               CornerRadius="100"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"
+                               IsClippedToBounds="True" >
+
+                            <Image Source="hobbies.png"
+                                   Aspect="AspectFit"
+                                   HeightRequest="200"
+                                   WidthRequest="200"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"
+                                   Margin="-150" />
+                        </Frame>
+                        <Label Text="HOBBIES"
+                               FontSize="Large"
+                               Margin="10"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"
+                               TextColor="#717C89"
+                               FontFamily="Nueva"/>
+
+                        <BoxView Color="#DBAD6A"
+                                 HeightRequest="5"
+                                 HorizontalOptions="Fill"
+                                 Margin="0,20,0,20" />
+                    </StackLayout>
+                </Frame>
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage>
+
+    <ContentPage Title="Hobbies"
+                 BackgroundColor="#90BAAD" >
+
+        <VerticalStackLayout>
+            <Frame BorderColor="#ADF6B1"
+                   BackgroundColor="#A1E5AB"
+                   CornerRadius="50"
+                   Padding="20"
+                   Margin="15" >
+
+                <StackLayout>
+                    <HorizontalStackLayout VerticalOptions="Center"
+                                           HorizontalOptions="Center">
+                        <VerticalStackLayout>
+                            <Label x:Name="labelNombre"
+                                   Text="Nombre"
+                                   FontSize="50"
+                                   Margin="50"
+                                   TextColor="#717C89"
+                                   FontFamily="Nueva"/>
+
+                            <BoxView Color="#0a9396"
+                                     HorizontalOptions="FillAndExpand"
+                                     HeightRequest="5"
+                                     Margin="10" />
+                        </VerticalStackLayout>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout>
+                        <Image Source="gym.png"
+                               HeightRequest="20" />
+
+                        <Label Text="Gym"
+                               FontSize="18"
+                               Margin="10"
+                               TextColor="#717C89"/>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout>
+                        <Image Source="futbol.png"
+                               HeightRequest="20" />
+                        
+                        <Label Text="Futbol"
+                               FontSize="18"
+                               Margin="10"
+                               TextColor="#717C89"/>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout>
+                        <Image Source="dormir.png"
+                               HeightRequest="20" />
+
+                        <Label Text="Dormir"
+                               FontSize="18"
+                               Margin="10"
+                               TextColor="#717C89"/>
+                    </HorizontalStackLayout>
+
+                    <Label Text="Nivel"
+                           Margin="15"
+                           TextColor="#717C89"/>
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <!-- Primer Slider y Label -->
+                        <Grid Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Slider x:Name="slider1" Minimum="0" Maximum="10" Value="10"/>
+
+                            <Label Text="{Binding Source={x:Reference slider1}, Path=Value, StringFormat='{0:F0}'}"
+                                   Margin="20,0,10,10"
+                                   Grid.Column="1"
+                                   HorizontalOptions="Start"
+                                   VerticalOptions="Center"
+                                   TextColor="#717C89"/>
+                        </Grid>
+
+                        <!-- Segundo Slider y Label -->
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Slider x:Name="slider2" Minimum="0" Maximum="10" Value="7"/>
+
+                            <Label Text="{Binding Source={x:Reference slider2}, Path=Value, StringFormat='{0:F0}'}"
+                                   Margin="20,0,10,10"
+                                   Grid.Column="1"
+                                   HorizontalOptions="Start"
+                                   VerticalOptions="Center"
+                                   TextColor="#717C89"/>
+                        </Grid>
+
+                        <!-- Tercer Slider y Label -->
+                        <Grid Grid.Row="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Slider x:Name="slider3" Minimum="0" Maximum="10" Value="9"/>
+
+                            <Label Text="{Binding Source={x:Reference slider3}, Path=Value, StringFormat='{0:F0}'}"
+                                   Margin="20,0,10,10"
+                                   Grid.Column="1"
+                                   HorizontalOptions="Start"
+                                   VerticalOptions="Center"
+                                   TextColor="#717C89"/>
+                        </Grid>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+
+            <HorizontalStackLayout>
+                <!-- Entry para ingresar un nombre -->
+                <Entry x:Name="entryNombre"
+                       Placeholder="Escribe su nombre"
+                       TextChanged="entryNombre_TextChanged"
+                       TextColor="#717C89"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Margin="50,0,20,0"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Hobbie Stp"
+                 BackgroundColor="#90BAAD">
+
+        <ScrollView>
+            <VerticalStackLayout>
+                <Frame BorderColor="#ADF6B1"
+                       BackgroundColor="#A1E5AB"
+                       CornerRadius="50"
+                       Padding="20"
+                       Margin="15" >
+                    <StackLayout>
+                        <HorizontalStackLayout VerticalOptions="Center"
+                                               HorizontalOptions="StartAndExpand">
+
+                            <VerticalStackLayout>
+                                <Label x:Name="labelNombre1"
+                                       Text="Hobbie"
+                                       FontSize="50"
+                                       Margin="50"
+                                       TextColor="#717C89"
+                                       FontFamily="Nueva"/>
+
+                                <BoxView Color="#0a9396"
+                                         HorizontalOptions="FillAndExpand"
+                                         HeightRequest="5"
+                                         Margin="10" />
+                            </VerticalStackLayout>
+
+                            <Switch x:Name="switchControl"
+                                    ThumbColor="Aqua"
+                                    OnColor="Chocolate"
+                                    Margin="250,0,25,0"
+                                    IsToggled="False"
+                                    Toggled="SwitchToggled"/>
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout HorizontalOptions="Center">
+                            <Stepper x:Name="stepperControl"
+                                     Maximum="10"
+                                     Minimum="0"
+                                     Increment="1"
+                                     BackgroundColor="Green"
+                                     ValueChanged="stepperControl_ValueChanged" />
+                        </HorizontalStackLayout>
+
+                        <Slider IsEnabled="True"
+                                x:Name="sliderControl"
+                                Margin="50"
+                                Maximum="10"
+                                Minimum="0"
+                                ValueChanged="sliderControl_ValueChanged"/>
+
+                        <Label x:Name="labelValue"
+                               Text="0"
+                               HorizontalOptions="Center"
+                               FontSize="Large"
+                               TextColor="#717C89"/>
+
+                        <HorizontalStackLayout HorizontalOptions="Start"
+                                               VerticalOptions="End">
+
+                            <!-- Entry para ingresar un nombre -->
+                            <Entry x:Name="entryNombre2"
+                                   Placeholder="Ingrese nombre del hobbie"
+                                   TextChanged="entryNombre2_TextChanged"
+                                   TextColor="#717C89"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"
+                                   Margin="20"/>
+                        </HorizontalStackLayout>
+                    </StackLayout>
+                </Frame>
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>
