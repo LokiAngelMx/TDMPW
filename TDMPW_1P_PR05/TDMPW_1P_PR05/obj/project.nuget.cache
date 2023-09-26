@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WKw5+CbRLbxJDbbcC5bEPModVnq4k3DSiVqzJQxP48vTMm0a4ZwRMQDkfX7tHGNW2aI5bfE4oX5/yHW4fn0hFg==",
+  "dgSpecHash": "IUHUgkqzwE+FQWik01tMId16cawBSS5bib7Z/12UV3bEtFuXu+q5oxnvHfMK3NjjnPX9W+PWEpFmYSeyOEjgjQ==",
   "success": true,
-  "projectFilePath": "/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/TDMPW_1P_PR05/TDMPW_1P_PR05/TDMPW_1P_PR05.csproj",
+  "projectFilePath": "/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/Prácticas/TDMPW_1P_PR05/TDMPW_1P_PR05/TDMPW_1P_PR05.csproj",
   "expectedPackageFiles": [
     "/Users/loki4ng3l/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",
     "/Users/loki4ng3l/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",

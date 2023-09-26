@@ -201,8 +201,7 @@
                        Padding="20"
                        Margin="15" >
                     <StackLayout>
-                        <HorizontalStackLayout VerticalOptions="Center"
-                                               HorizontalOptions="StartAndExpand">
+                        <HorizontalStackLayout VerticalOptions="Center">
 
                             <VerticalStackLayout>
                                 <Label x:Name="labelNombre1"

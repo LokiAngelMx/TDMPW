@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "20kcTBKg2aDDXXLK8/YOp/+Iz01UM7k3kNml+4xcLUd7yXAkqWCtKcQB4xUD2Mvma0wz1Bd5Fd3gRZTP2TRdyg==",
+  "dgSpecHash": "n9XUJWrSVwG8bNALCe/xWD9lXoFenLfXVyirL+5Lz13ezUJlQaEWFQNGczRcbvNLrxyJdDdhDRHyULs+QX8liQ==",
   "success": true,
-  "projectFilePath": "/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/TDMPW_2P_EJ01/TDMPW_2P_EJ01/TDMPW_2P_EJ01.csproj",
+  "projectFilePath": "/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/Prácticas/TDMPW_2P_EJ01/TDMPW_2P_EJ01/TDMPW_2P_EJ01.csproj",
   "expectedPackageFiles": [
     "/Users/loki4ng3l/.nuget/packages/communitytoolkit.maui/5.3.0/communitytoolkit.maui.5.3.0.nupkg.sha512",
     "/Users/loki4ng3l/.nuget/packages/communitytoolkit.maui.core/5.3.0/communitytoolkit.maui.core.5.3.0.nupkg.sha512",

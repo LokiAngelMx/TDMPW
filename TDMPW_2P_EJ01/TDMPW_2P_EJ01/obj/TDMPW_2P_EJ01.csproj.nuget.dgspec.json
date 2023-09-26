@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/TDMPW_2P_EJ01/TDMPW_2P_EJ01/TDMPW_2P_EJ01.csproj": {}
+    "/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/Prácticas/TDMPW_2P_EJ01/TDMPW_2P_EJ01/TDMPW_2P_EJ01.csproj": {}
   },
   "projects": {
-    "/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/TDMPW_2P_EJ01/TDMPW_2P_EJ01/TDMPW_2P_EJ01.csproj": {
+    "/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/Prácticas/TDMPW_2P_EJ01/TDMPW_2P_EJ01/TDMPW_2P_EJ01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/TDMPW_2P_EJ01/TDMPW_2P_EJ01/TDMPW_2P_EJ01.csproj",
+        "projectUniqueName": "/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/Prácticas/TDMPW_2P_EJ01/TDMPW_2P_EJ01/TDMPW_2P_EJ01.csproj",
         "projectName": "TDMPW_2P_EJ01",
-        "projectPath": "/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/TDMPW_2P_EJ01/TDMPW_2P_EJ01/TDMPW_2P_EJ01.csproj",
+        "projectPath": "/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/Prácticas/TDMPW_2P_EJ01/TDMPW_2P_EJ01/TDMPW_2P_EJ01.csproj",
         "packagesPath": "/Users/loki4ng3l/.nuget/packages/",
-        "outputPath": "/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/TDMPW_2P_EJ01/TDMPW_2P_EJ01/obj/",
+        "outputPath": "/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/Prácticas/TDMPW_2P_EJ01/TDMPW_2P_EJ01/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [

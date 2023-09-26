@@ -7,9 +7,9 @@
       <dSYMSourcePathExists>false</dSYMSourcePathExists>
       <NoSymbolStrip>true</NoSymbolStrip>
       <dSYMInfoPlistRelativePath>TDMPW_1P_PR06.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
-      <SymbolFile>/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/TDMPW_1P_PR06/TDMPW_1P_PR06/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
+      <SymbolFile>/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/Prácticas/TDMPW_1P_PR06/TDMPW_1P_PR06/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
       <DSymName>TDMPW_1P_PR06.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/TDMPW_1P_PR06/TDMPW_1P_PR06</SourceProjectPath>
+      <SourceProjectPath>/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/Prácticas/TDMPW_1P_PR06/TDMPW_1P_PR06</SourceProjectPath>
     </_PostProcessingItem>
   </ItemGroup>
 </Project>
