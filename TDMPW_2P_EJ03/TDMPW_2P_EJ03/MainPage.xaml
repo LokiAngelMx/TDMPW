@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_2P_EJ03.MainPage">
+
+    <Grid x:Name="background">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="1,1"> <!-- 0,0 | 0,1 | 1,0 | 1,1 -->
+                <GradientStopCollection>
+                    <GradientStop Offset="0.0" Color="#051937"/>
+                    <GradientStop Offset="0.25" Color="#004d7a"/>
+                    <GradientStop Offset="0.50" Color="#008793"/>
+                    <GradientStop Offset="0.75" Color="#00bf72"/>
+                    <GradientStop Offset="1" Color="#a8eb12"/>
+                </GradientStopCollection>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid Margin="25" RowDefinitions=".8*, .2*">
+
+            <Image
+                Grid.Row="0"
+                x:Name="imgPrincipal"
+                WidthRequest="100"
+                VerticalOptions="End"/>
+
+            <Label
+                x:Name="frase"
+                FontSize="50"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                TextColor="White"
+                Text="........"
+                FontFamily="Bison" />
+
+            <Button
+                x:Name="btnGenerar"
+                Grid.Row="1"
+                BackgroundColor="Black"
+                Opacity=".4"
+                Clicked="btnGenerar_Clicked" /> <!-- Opacity: 0 más traslúcido, 1 más sólido -->
+        </Grid>
+    </Grid>
+</ContentPage>

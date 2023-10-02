@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_2P_PR03.MainPage">
+
+    <Grid x:Name="background">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="1,1">
+                <GradientStopCollection>
+                    <GradientStop Offset="0.0" Color="#d9ed92"/>
+                    <GradientStop Offset="0.20" Color="#b5e48c"/>
+                    <GradientStop Offset="0.40" Color="#99d98c"/>
+                    <GradientStop Offset="0.60" Color="#76c893"/>
+                    <GradientStop Offset="0.80" Color="#52b69a"/>
+                    <GradientStop Offset="1" Color="#34a0a4"/>
+                </GradientStopCollection>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid Margin="10">
+            <Grid.RowDefinitions><!--Horizontal-->
+                <RowDefinition Height="*"/><!--0-->
+                <RowDefinition Height="2*"/><!--1-->
+                <RowDefinition Height="*"/><!--2-->
+                <RowDefinition Height="*"/><!--3-->
+                <RowDefinition Height="*"/><!--4-->
+                <RowDefinition Height="*"/><!--5-->
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions><!-- Vertical -->
+                <ColumnDefinition Width="*"/><!--0-->
+                <ColumnDefinition Width="*"/><!--1-->
+                <ColumnDefinition Width="*"/><!--2-->
+            </Grid.ColumnDefinitions>
+
+            <Label
+                Text="TÍTULO"
+                FontFamily="Halloween"
+                FontSize="80"
+                Grid.Column="1"
+                Grid.Row="0"
+                HorizontalOptions="Center"/>
+
+            <Image
+                x:Name="imgPrincipal"
+                Source="n1.jpeg"
+                WidthRequest="600"
+                Grid.Column="1"
+                Grid.Row="1"/>
+
+            <Label
+                x:Name="frase"
+                Text="........"
+                TextColor="White"
+                FontSize="40"
+                HorizontalOptions="Center"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                Grid.Row="2"/>
+
+            <Button
+                x:Name="btnGenerar"
+                Grid.Row="3"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                Margin="100,0"
+                BackgroundColor="Black"
+                Opacity=".4"
+                Clicked="btnGenerar_Clicked"/>
+
+            <Label
+                x:Name="color1"
+                Text="#d9ed92"
+                FontSize="30"
+                Margin="30"
+                Grid.Row="4"
+                Grid.Column="0"
+                HorizontalOptions="Center"/>
+
+            <Label
+                x:Name="color2"
+                Text="#b5e48c"
+                FontSize="30"
+                Margin="30"
+                Grid.Row="4"
+                Grid.Column="1"
+                HorizontalOptions="Center"/>
+
+            <Label
+                x:Name="color3"
+                Text="#99d98c"
+                FontSize="30"
+                Margin="30"
+                Grid.Row="4"
+                Grid.Column="2"
+                HorizontalOptions="Center"/>
+
+            <Label
+                x:Name="color4"
+                Text="#76c893"
+                FontSize="30"
+                Margin="30"
+                Grid.Row="5"
+                Grid.Column="0"
+                HorizontalOptions="Center"/>
+
+            <Label
+                x:Name="color5"
+                Text="#52b69a"
+                FontSize="30"
+                Margin="30"
+                Grid.Row="5"
+                Grid.Column="1"
+                HorizontalOptions="Center"/>
+
+            <Label
+                x:Name="color6"
+                Text="#34a0a4"
+                FontSize="30"
+                Margin="30"
+                Grid.Row="5"
+                Grid.Column="2"
+                HorizontalOptions="Center"/>
+        </Grid>
+    </Grid>
+</ContentPage>
