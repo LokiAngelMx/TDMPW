@@ -12,6 +12,30 @@
 		<data>
 		40RHHyfOWm0Zvbuxryjiftc9G5Y=
 		</data>
+		<key>Resources/Images/ahorcado0.png</key>
+		<data>
+		DQ8DYshVnLoPeOPjDkLSP803pps=
+		</data>
+		<key>Resources/Images/ahorcado1.png</key>
+		<data>
+		ea8OCWh7hMxaU1bwvpwVcHpEB2M=
+		</data>
+		<key>Resources/Images/ahorcado2.png</key>
+		<data>
+		CQ4Qy8Q4p1gIJOIb9u95MR6NuJ0=
+		</data>
+		<key>Resources/Images/ahorcado3.png</key>
+		<data>
+		gqoL6Ir6hv2LN3nKVCM4TislIsQ=
+		</data>
+		<key>Resources/Images/ahorcado4.png</key>
+		<data>
+		OfXB1OO7fSmOSeDCS1QH0jO++Hk=
+		</data>
+		<key>Resources/Images/ahorcado5.png</key>
+		<data>
+		6NCDUA6MRwihx3IYSad8lzgPHoY=
+		</data>
 		<key>Resources/MauiInfo.plist</key>
 		<data>
 		iEtuUGCV6JM3gxS/pO33swhmpp8=
@@ -27,6 +51,30 @@
 		<key>Resources/OpenSans-Semibold.ttf</key>
 		<data>
 		XYnGUgrn7MqmVczZK9EvVxo1TBw=
+		</data>
+		<key>Resources/ahorcado0.png</key>
+		<data>
+		DQ8DYshVnLoPeOPjDkLSP803pps=
+		</data>
+		<key>Resources/ahorcado1.png</key>
+		<data>
+		ea8OCWh7hMxaU1bwvpwVcHpEB2M=
+		</data>
+		<key>Resources/ahorcado2.png</key>
+		<data>
+		CQ4Qy8Q4p1gIJOIb9u95MR6NuJ0=
+		</data>
+		<key>Resources/ahorcado3.png</key>
+		<data>
+		gqoL6Ir6hv2LN3nKVCM4TislIsQ=
+		</data>
+		<key>Resources/ahorcado4.png</key>
+		<data>
+		OfXB1OO7fSmOSeDCS1QH0jO++Hk=
+		</data>
+		<key>Resources/ahorcado5.png</key>
+		<data>
+		6NCDUA6MRwihx3IYSad8lzgPHoY=
 		</data>
 		<key>Resources/appicon.icns</key>
 		<data>
@@ -1325,14 +1373,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hmdVi2/Ud3kT1UgeFJJ6WPB1oqKOAu4Vy5q9PhWOnMA=
+			2vywGw/92vrot6gbOoemzlhVp4dh+CER/UzizE/K+Co=
 			</data>
 		</dict>
 		<key>MonoBundle/TDMPW_2P_EJ04.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I4Pp/VmcpXRdos2OeKtoT7LZWTA5NvXjiUu9qMza2+c=
+			t2YJxEpvunJeD3+cW/7aSexoY46HGHaovmXdlvswnV4=
 			</data>
 		</dict>
 		<key>MonoBundle/WindowsBase.dll</key>
@@ -1426,6 +1474,48 @@
 			eLVDfiYuB9Y5RoicIpoUjj3cft5ORqzTcycCBkeWS0k=
 			</data>
 		</dict>
+		<key>Resources/Images/ahorcado0.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vRLl5CmEtZXQXRIUNZiF04MWUyhSNIyQ6VzTFXp1zHU=
+			</data>
+		</dict>
+		<key>Resources/Images/ahorcado1.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ACyZABAXhuU9o93JP9+CepkarKDXO4WVzmMuFqrFSFI=
+			</data>
+		</dict>
+		<key>Resources/Images/ahorcado2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kcw4zVV6QoFgKwcnkHWvtYi2jvP3wyik7r/rTwpGOxY=
+			</data>
+		</dict>
+		<key>Resources/Images/ahorcado3.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a+038E99ja0ARK0XGy3+4a13bJyG5emm+6L4l1vLyKI=
+			</data>
+		</dict>
+		<key>Resources/Images/ahorcado4.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VPqJnwOPVrVvuAmCKySVXW6D5cEsvOqN3XW5EabS4A4=
+			</data>
+		</dict>
+		<key>Resources/Images/ahorcado5.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RoMpcM9ZW9NJLiPet6AHrERE6F9b3lKe+wyvM2v6EAo=
+			</data>
+		</dict>
 		<key>Resources/MauiInfo.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -1452,6 +1542,48 @@
 			<key>hash2</key>
 			<data>
 			8YzWRFTcps0nvFN7X4WznR/vZs5CBHaSYlU7s6+7Ucs=
+			</data>
+		</dict>
+		<key>Resources/ahorcado0.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vRLl5CmEtZXQXRIUNZiF04MWUyhSNIyQ6VzTFXp1zHU=
+			</data>
+		</dict>
+		<key>Resources/ahorcado1.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ACyZABAXhuU9o93JP9+CepkarKDXO4WVzmMuFqrFSFI=
+			</data>
+		</dict>
+		<key>Resources/ahorcado2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kcw4zVV6QoFgKwcnkHWvtYi2jvP3wyik7r/rTwpGOxY=
+			</data>
+		</dict>
+		<key>Resources/ahorcado3.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a+038E99ja0ARK0XGy3+4a13bJyG5emm+6L4l1vLyKI=
+			</data>
+		</dict>
+		<key>Resources/ahorcado4.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VPqJnwOPVrVvuAmCKySVXW6D5cEsvOqN3XW5EabS4A4=
+			</data>
+		</dict>
+		<key>Resources/ahorcado5.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RoMpcM9ZW9NJLiPet6AHrERE6F9b3lKe+wyvM2v6EAo=
 			</data>
 		</dict>
 		<key>Resources/appicon.icns</key>

@@ -11,7 +11,7 @@ public partial class MainPage : ContentPage, INotifyPropertyChanged
     private string message = "Mensaje";
     private int mistakes = 0;
     private int maxWrong = 5;
-    private string currentImage = "dotnet_bot.png";
+    private string currentImage = "ahorcado0.png";
     private string answer = "";
     private List<char> guessed = new List<char>();
 
@@ -197,5 +197,6 @@ public partial class MainPage : ContentPage, INotifyPropertyChanged
     private void actualizarStatus()
     {
         Status = $"Errores: {mistakes} de {maxWrong}";
+        CurrentImage = $"ahorcado{mistakes}.png";
     }
 }

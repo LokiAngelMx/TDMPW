@@ -30,6 +30,9 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 	</PropertyGroup>
 
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
+	  <CreatePackage>false</CreatePackage>
+	</PropertyGroup>
 	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
@@ -52,4 +55,20 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="Resources\Images\ahorcado0.png" />
+	  <None Remove="Resources\Images\ahorcado1.png" />
+	  <None Remove="Resources\Images\ahorcado2.png" />
+	  <None Remove="Resources\Images\ahorcado3.png" />
+	  <None Remove="Resources\Images\ahorcado4.png" />
+	  <None Remove="Resources\Images\ahorcado5.png" />
+	</ItemGroup>
+	<ItemGroup>
+	  <BundleResource Include="Resources\Images\ahorcado0.png" />
+	  <BundleResource Include="Resources\Images\ahorcado1.png" />
+	  <BundleResource Include="Resources\Images\ahorcado2.png" />
+	  <BundleResource Include="Resources\Images\ahorcado3.png" />
+	  <BundleResource Include="Resources\Images\ahorcado4.png" />
+	  <BundleResource Include="Resources\Images\ahorcado5.png" />
+	</ItemGroup>
 </Project>
