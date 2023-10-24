@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "IXmjmAvEMrqnkDoFA5815KjsYGpDbEmJ3Tj1gHpElJuKNQ3kejwiU6Xe4dIW9OfJKFzt3fXHD/gl+VlOrdtVlg==",
+  "dgSpecHash": "7sm/tp6hk5TQHBLyjIiJeQOR4DIEciRf1R9RXyUAnWd4UBg1SppmxdgBXOLrDucuCmmykS1moctjiZ6JNK/X6A==",
   "success": true,
   "projectFilePath": "/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/Prácticas/TDMPW_2P_PR04/TDMPW_2P_PR04/TDMPW_2P_PR04.csproj",
   "expectedPackageFiles": [
+    "/Users/loki4ng3l/.nuget/packages/colorutility/1.0.0/colorutility.1.0.0.nupkg.sha512",
     "/Users/loki4ng3l/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",
     "/Users/loki4ng3l/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "/Users/loki4ng3l/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

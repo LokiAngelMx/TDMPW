@@ -10,7 +10,43 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		40RHHyfOWm0Zvbuxryjiftc9G5Y=
+		JvtZ4U+WxzFYCGjDYriSakqYQy4=
+		</data>
+		<key>Resources/Fonts/Halloween.ttf</key>
+		<data>
+		ieblss9Z3UmloLKuMCtZG5moPsk=
+		</data>
+		<key>Resources/Halloween.ttf</key>
+		<data>
+		ieblss9Z3UmloLKuMCtZG5moPsk=
+		</data>
+		<key>Resources/Images/n1.jpeg</key>
+		<data>
+		Q+AF7rKBH9MjKl4+Idwt6+wSDI0=
+		</data>
+		<key>Resources/Images/n2.jpeg</key>
+		<data>
+		gS/OYR6YSiiTC2UOEDYVDcCXW34=
+		</data>
+		<key>Resources/Images/n3.jpeg</key>
+		<data>
+		+Rs8LyBVSlCcfh8ZYtYhiI9NM+8=
+		</data>
+		<key>Resources/Images/n4.jpeg</key>
+		<data>
+		S3/mFXTiTfppj0tZ1r01sDFaheM=
+		</data>
+		<key>Resources/Images/n5.jpeg</key>
+		<data>
+		6e1K0LGRTsybjCzs/BAV5y3mAQg=
+		</data>
+		<key>Resources/Images/pyr.jpeg</key>
+		<data>
+		i0Zi8jf7/ojNzGHV0KUUoEmNh54=
+		</data>
+		<key>Resources/MauiInfo.plist</key>
+		<data>
+		IX3FAM09CD7HSNwApOhKFV0xbmI=
 		</data>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<data>
@@ -23,6 +59,22 @@
 		<key>Resources/OpenSans-Semibold.ttf</key>
 		<data>
 		7kmp11TMQSvyIvS8OU5aBDAirCs=
+		</data>
+		<key>Resources/Preguntas.txt</key>
+		<data>
+		nZuhn97kttPxEepfYwX6VL6g+XY=
+		</data>
+		<key>Resources/Raw/Preguntas.txt</key>
+		<data>
+		nZuhn97kttPxEepfYwX6VL6g+XY=
+		</data>
+		<key>Resources/Raw/Respuestas.txt</key>
+		<data>
+		nV+uGNIxSzMJC5kzN60jFWE17XU=
+		</data>
+		<key>Resources/Respuestas.txt</key>
+		<data>
+		nV+uGNIxSzMJC5kzN60jFWE17XU=
 		</data>
 		<key>Resources/appicon.icns</key>
 		<data>
@@ -40,9 +92,40 @@
 		<data>
 		AgG9OaBqGlLlSsDbnE/6b1bb0xU=
 		</data>
+		<key>Resources/n1.jpeg</key>
+		<data>
+		Q+AF7rKBH9MjKl4+Idwt6+wSDI0=
+		</data>
+		<key>Resources/n2.jpeg</key>
+		<data>
+		gS/OYR6YSiiTC2UOEDYVDcCXW34=
+		</data>
+		<key>Resources/n3.jpeg</key>
+		<data>
+		+Rs8LyBVSlCcfh8ZYtYhiI9NM+8=
+		</data>
+		<key>Resources/n4.jpeg</key>
+		<data>
+		S3/mFXTiTfppj0tZ1r01sDFaheM=
+		</data>
+		<key>Resources/n5.jpeg</key>
+		<data>
+		6e1K0LGRTsybjCzs/BAV5y3mAQg=
+		</data>
+		<key>Resources/pyr.jpeg</key>
+		<data>
+		i0Zi8jf7/ojNzGHV0KUUoEmNh54=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>MonoBundle/ColorUtility.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			k3cpZh40uFY7AA9MJNtOgKOLKM8vrCKIKSj5TtNic1U=
+			</data>
+		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -1321,14 +1404,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CP0jhuBux7N4We0ZpLY+YkLJOaZTNxNs3EL5gfYQWXU=
+			1Jxn3TSn/CxM1jDVCZdsu8dQbkWq0AEjRe/sFmLW0tI=
 			</data>
 		</dict>
 		<key>MonoBundle/TDMPW_2P_PR04.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B9E3exoef7Ag91215JPP25awy5YKL6+fYRVoMfw0+54=
+			wjB3sULgAuD8kZgvlBE3xjuo9u6Di9vbKxyudLkh7G4=
 			</data>
 		</dict>
 		<key>MonoBundle/WindowsBase.dll</key>
@@ -1419,7 +1502,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eLVDfiYuB9Y5RoicIpoUjj3cft5ORqzTcycCBkeWS0k=
+			FgTVA+WgDp8GYUO90MFY7/7eOF6g39/UlGypSXyja+E=
+			</data>
+		</dict>
+		<key>Resources/Fonts/Halloween.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uYr45gyqhulUxmWpqnqBRil8lbemH/w1GYoxjrI/FC8=
+			</data>
+		</dict>
+		<key>Resources/Halloween.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uYr45gyqhulUxmWpqnqBRil8lbemH/w1GYoxjrI/FC8=
+			</data>
+		</dict>
+		<key>Resources/Images/n1.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KdvkYGkN79xSWTgl3B4+lNTsQI6RI6eDNPiBIAYPup8=
+			</data>
+		</dict>
+		<key>Resources/Images/n2.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ghX/hBx0471mGuceh0qw1qKNT4GQIAb7PPJjIR5CmT0=
+			</data>
+		</dict>
+		<key>Resources/Images/n3.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VQfhTckLplx/NPcA50vHrqbmoGX27ZQ7MOtNzO/6B3A=
+			</data>
+		</dict>
+		<key>Resources/Images/n4.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zNRfyBkv/0upKpseZZNpzHLhjel2Wqt25gqrVwxW3lc=
+			</data>
+		</dict>
+		<key>Resources/Images/n5.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ipiHl3x+9KdZJiI06TDtrRLMFdH+BTpMdUyf3sTIsoU=
+			</data>
+		</dict>
+		<key>Resources/Images/pyr.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ksh49sqx9bvlALXhFqsnuNLIOoEqVb5R1WGC1CGXQQg=
+			</data>
+		</dict>
+		<key>Resources/MauiInfo.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pmCCLXf2+iCgSzTGkyZn7e/T/axlIP0IAjmcuXr9gz0=
 			</data>
 		</dict>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
@@ -1441,6 +1587,34 @@
 			<key>hash2</key>
 			<data>
 			jX0rv3kbDtTSBkLJ+pQltFCp96UwHuv2XGlNbBbYRm4=
+			</data>
+		</dict>
+		<key>Resources/Preguntas.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sxHQ9RtVJKpvy6pnLa4e8WXLkYe6QtKH2+EXwnieD4E=
+			</data>
+		</dict>
+		<key>Resources/Raw/Preguntas.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sxHQ9RtVJKpvy6pnLa4e8WXLkYe6QtKH2+EXwnieD4E=
+			</data>
+		</dict>
+		<key>Resources/Raw/Respuestas.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			07PemeOXD664eerZ6eSTCo7PQpQwdLI6EPH+RXsxmw4=
+			</data>
+		</dict>
+		<key>Resources/Respuestas.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			07PemeOXD664eerZ6eSTCo7PQpQwdLI6EPH+RXsxmw4=
 			</data>
 		</dict>
 		<key>Resources/appicon.icns</key>
@@ -1469,6 +1643,48 @@
 			<key>hash2</key>
 			<data>
 			06Dw48r2qORp1zVQzu1FMEqEQpN18taU/bp0JACYc40=
+			</data>
+		</dict>
+		<key>Resources/n1.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KdvkYGkN79xSWTgl3B4+lNTsQI6RI6eDNPiBIAYPup8=
+			</data>
+		</dict>
+		<key>Resources/n2.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ghX/hBx0471mGuceh0qw1qKNT4GQIAb7PPJjIR5CmT0=
+			</data>
+		</dict>
+		<key>Resources/n3.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VQfhTckLplx/NPcA50vHrqbmoGX27ZQ7MOtNzO/6B3A=
+			</data>
+		</dict>
+		<key>Resources/n4.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zNRfyBkv/0upKpseZZNpzHLhjel2Wqt25gqrVwxW3lc=
+			</data>
+		</dict>
+		<key>Resources/n5.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ipiHl3x+9KdZJiI06TDtrRLMFdH+BTpMdUyf3sTIsoU=
+			</data>
+		</dict>
+		<key>Resources/pyr.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ksh49sqx9bvlALXhFqsnuNLIOoEqVb5R1WGC1CGXQQg=
 			</data>
 		</dict>
 	</dict>

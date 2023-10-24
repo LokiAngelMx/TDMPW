@@ -1,0 +1,748 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_2P_EX_74710.MainPage"
+             BarBackgroundColor="Black"
+             SelectedTabColor="White">
+
+    <ContentPage Title="Home"
+                 IconImageSource="home.png"
+                 BackgroundColor="#74c69d">
+        <Grid>
+            <Grid.RowDefinitions><!--Horizontal-->
+                <RowDefinition Height="3*"/><!--0-->
+                <RowDefinition Height="*"/><!--1-->
+                <RowDefinition Height="3*"/><!--2-->
+                <RowDefinition Height="*"/><!--3-->
+                <RowDefinition Height="3*"/><!--4-->
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions><!--Vertical-->
+                <ColumnDefinition Width="*"/><!--0-->
+            </Grid.ColumnDefinitions>
+
+            <Frame
+                Grid.Row="0"
+                HasShadow="True"
+                BackgroundColor="#40916c">
+
+                <StackLayout
+                    VerticalOptions="End">
+
+                    <Grid>
+                        <Grid.RowDefinitions><!--Horizontal-->
+                            <RowDefinition Height="2*"/><!--0-->
+                            <RowDefinition Height="*"/><!--1-->
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions><!--Vertical-->
+                            <ColumnDefinition Width="*"/><!--0-->
+                            <ColumnDefinition Width="*"/><!--1-->
+                            <ColumnDefinition Width="*"/><!--2-->
+                            <ColumnDefinition Width="*"/><!--3-->
+                            <ColumnDefinition Width="*"/><!--4-->
+                            <ColumnDefinition Width="*"/><!--5-->
+                            <ColumnDefinition Width="*"/><!--6-->
+                        </Grid.ColumnDefinitions>
+
+                        <Label
+                            Text="Bienvenido(a) ☕"
+                            FontSize="40"
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Grid.ColumnSpan="5"
+                            Margin="0,60"/>
+
+                        <Image
+                            Source="user.png"
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            HeightRequest="30"
+                            WidthRequest="30"
+                            Margin="0,10,0,0"/>
+
+                        <Label
+                            Text="Login"
+                            Grid.Row="1"
+                            Grid.Column="1"
+                            FontSize="20"
+                            Margin="0,10,10,0"/>
+
+                        <Image
+                            Source="email.png"
+                            Grid.Row="1"
+                            Grid.Column="2"
+                            HeightRequest="30"
+                            WidthRequest="30"
+                            Margin="0,10,0,0"/>
+
+                        <Label
+                            Text="Inbox"
+                            Grid.Row="1"
+                            Grid.Column="3"
+                            FontSize="20"
+                            Margin="0,10,10,0"/>
+
+                        <Image
+                            Source="share.png"
+                            Grid.Row="1"
+                            Grid.Column="4"
+                            HeightRequest="30"
+                            WidthRequest="30"
+                            Margin="0,10,0,0"/>
+
+                        <Image
+                            Source="settings.png"
+                            Grid.Row="1"
+                            Grid.Column="6"
+                            HeightRequest="30"
+                            WidthRequest="30"
+                            Margin="0,10,0,0"/>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+
+            <Label
+                Text="STARBUCKS REWARDS"
+                FontSize="20"
+                TextColor="Black"
+                Grid.Row="1"
+                Grid.Column="0"
+                Margin="10,25,0,0"/>
+
+            <Frame
+                Grid.Row="2"
+                IsClippedToBounds="True"
+                HasShadow="True">
+
+                <Image
+                    Source="rewards.jpeg"
+                    HeightRequest="500"
+                    WidthRequest="540"/>
+            </Frame>
+
+            <Label
+                Text="Obtén bebidas gratis, alimentos y más"
+                FontSize="20"
+                TextColor="Black"
+                Grid.Row="3"
+                Grid.Column="0"
+                Margin="10,25,0,0"/>
+
+            <Frame
+                Grid.Row="4"
+                IsClippedToBounds="True"
+                HasShadow="True">
+
+                <Image
+                    Source="coffees.webp"
+                    HeightRequest="500"
+                    WidthRequest="540"/>
+            </Frame>
+        </Grid>
+    </ContentPage>
+
+    <ContentPage Title="Order"
+                 IconImageSource="coffee.png"
+                 BackgroundColor="#74c69d">
+        <Grid>
+            <Grid.RowDefinitions><!--Horizontal-->
+                <RowDefinition Height="4.12*"/><!--0-->
+                <RowDefinition Height="*"/><!--1-->
+                <RowDefinition Height="2*"/><!--2-->
+                <RowDefinition Height="2*"/><!--3-->
+                <RowDefinition Height="2*"/><!--4-->
+                <RowDefinition Height="2*"/><!--5-->
+                <RowDefinition Height="2*"/><!--6-->
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions><!--Vertical-->
+                <ColumnDefinition Width="*"/><!--0-->
+                <ColumnDefinition Width="2*"/><!--1-->
+                <ColumnDefinition Width="*"/><!--2-->
+            </Grid.ColumnDefinitions>
+
+            <Frame
+                Grid.Row="0"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                HasShadow="True"
+                BackgroundColor="#40916c">
+
+                <StackLayout
+                    VerticalOptions="End">
+
+                    <Grid>
+                        <Grid.RowDefinitions><!--Horizontal-->
+                            <RowDefinition Height="2*"/><!--0-->
+                            <RowDefinition Height="*"/><!--1-->
+                            <RowDefinition Height="*"/><!--2-->
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions><!--Vertical-->
+                            <ColumnDefinition Width="*"/><!--0-->
+                            <ColumnDefinition Width="*"/><!--1-->
+                            <ColumnDefinition Width="*"/><!--2-->
+                            <ColumnDefinition Width="*"/><!--3-->
+                            <ColumnDefinition Width="*"/><!--4-->
+                            <ColumnDefinition Width="*"/><!--5-->
+                        </Grid.ColumnDefinitions>
+
+                        <Label
+                            Text="Ordena"
+                            FontSize="40"
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Grid.ColumnSpan="2"
+                            Margin="0,60"/>
+
+                        <Label
+                            Text="Menú"
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            FontSize="20"
+                            Margin="0,10"/>
+
+                        <BoxView
+                            Color="White"
+                            Grid.Row="2"
+                            Grid.Column="0"
+                            HeightRequest="5"/>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+
+            <Label
+                Text="Bebidas"
+                FontSize="35"
+                TextColor="Black"
+                Grid.Row="1"
+                Grid.RowSpan="2"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Margin="10,15,0,0"/>
+
+            <Frame
+                Grid.Row="2"
+                Grid.Column="0"
+                BackgroundColor="#1b4332"
+                HeightRequest="110"
+                WidthRequest="110"
+                CornerRadius="55"
+                IsClippedToBounds="True"
+                HasShadow="True">
+
+                <Image
+                    Source="coffee1.png"
+                    Aspect="AspectFit"
+                    HeightRequest="135"
+                    WidthRequest="135"/>
+            </Frame>
+
+            <Label
+                Text="Bebidas Calientes"
+                FontSize="25"
+                TextColor="Black"
+                Grid.Row="2"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                VerticalOptions="Center"
+                Margin="45,0"/>
+
+            <Frame
+                Grid.Row="3"
+                Grid.Column="0"
+                BackgroundColor="#1b4332"
+                HeightRequest="110"
+                WidthRequest="110"
+                CornerRadius="55"
+                IsClippedToBounds="True"
+                HasShadow="True">
+
+                <Image
+                    Source="coffee2.png"
+                    Aspect="AspectFit"
+                    HeightRequest="135"
+                    WidthRequest="135"/>
+            </Frame>
+
+            <Label
+                Text="Bebidas Frías"
+                FontSize="25"
+                TextColor="Black"
+                Grid.Row="3"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                VerticalOptions="Center"
+                Margin="45,0"/>
+
+            <Frame
+                Grid.Row="4"
+                Grid.Column="0"
+                BackgroundColor="#1b4332"
+                HeightRequest="110"
+                WidthRequest="110"
+                CornerRadius="55"
+                IsClippedToBounds="True"
+                HasShadow="True">
+
+                <Image
+                    Source="coffee3.png"
+                    Aspect="AspectFit"
+                    HeightRequest="135"
+                    WidthRequest="135"/>
+            </Frame>
+
+            <Label
+                Text="Bebidas Base Té"
+                FontSize="25"
+                TextColor="Black"
+                Grid.Row="4"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                VerticalOptions="Center"
+                Margin="45,0"/>
+
+            <Frame
+                Grid.Row="5"
+                Grid.Column="0"
+                BackgroundColor="#1b4332"
+                HeightRequest="110"
+                WidthRequest="110"
+                CornerRadius="55"
+                IsClippedToBounds="True"
+                HasShadow="True">
+
+                <Image
+                    Source="coffee4.png"
+                    Aspect="AspectFit"
+                    HeightRequest="135"
+                    WidthRequest="135"/>
+            </Frame>
+
+            <Label
+                Text="Frappuccinos"
+                FontSize="25"
+                TextColor="Black"
+                Grid.Row="5"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                VerticalOptions="Center"
+                Margin="45,0"/>
+
+            <Frame
+                Grid.Row="6"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                BackgroundColor="#1b4332"
+                HasShadow="True">
+                <StackLayout>
+                    <Grid>
+                        <Grid.RowDefinitions><!--Horizontal-->
+                            <RowDefinition Height="*"/><!--0-->
+                            <RowDefinition Height="*"/><!--1-->
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions><!--Vertical-->
+                            <ColumnDefinition Width="2*"/><!--0-->
+                            <ColumnDefinition Width="2*"/><!--1-->
+                            <ColumnDefinition Width="*"/><!--2-->
+                        </Grid.ColumnDefinitions>
+                    
+                        <Label
+                            Text="Tienda para llevar"
+                            TextColor="White"
+                            FontSize="18"
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Margin="0,10,0,0"/>
+
+                        <Label
+                            Text="AMBERES"
+                            TextColor="White"
+                            FontSize="21"
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Margin="0,20,0,0"/>
+
+                        <Image
+                            Source="bag.png"
+                            Grid.Row="0"
+                            Grid.RowSpan="2"
+                            Grid.Column="2"
+                            HeightRequest="60"
+                            WidthRequest="60"/>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </ContentPage>
+
+    <ContentPage Title="Checkout"
+                 IconImageSource="checkout.png"
+                 BackgroundColor="#74c69d">
+
+        <Grid>
+            <Grid.RowDefinitions><!--Horizontal-->
+                <RowDefinition Height="*"/><!--0-->
+                <RowDefinition Height="3*"/><!--1-->
+                <RowDefinition Height=".5*"/><!--2-->
+                <RowDefinition Height="1.5*"/><!--3-->
+                <RowDefinition Height="*"/><!--4-->
+                <RowDefinition Height="3*"/><!--5-->
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions><!--Vertical-->
+                <ColumnDefinition Width="*"/><!--0-->
+                <ColumnDefinition Width="*"/><!--1-->
+                <ColumnDefinition Width="*"/><!--2-->
+            </Grid.ColumnDefinitions>
+
+            <Frame
+                Grid.Row="0"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                BackgroundColor="#1b4332"
+                HasShadow="True">
+                <Label
+                    Text="Revisar pedido (1)"
+                    FontSize="20"
+                    VerticalOptions="Center"
+                    Margin="30,0"/>
+            </Frame>
+
+            <Frame
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                HasShadow="True"
+                BackgroundColor="#40916c">
+                <StackLayout>
+                    <Grid>
+                        <Grid.RowDefinitions><!--Horizontal-->
+                            <RowDefinition Height="*"/><!--0-->
+                            <RowDefinition Height="*"/><!--1-->
+                            <RowDefinition Height="*"/><!--2-->
+                            <RowDefinition Height="*"/><!--3-->
+                            <RowDefinition Height="*"/><!--4-->
+                            <RowDefinition Height="*"/><!--5-->
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions><!--Vertical-->
+                            <ColumnDefinition Width="*"/><!--0-->
+                            <ColumnDefinition Width="2*"/><!--1-->
+                            <ColumnDefinition Width="*"/><!--2-->
+                        </Grid.ColumnDefinitions>
+
+                        <Frame
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            BackgroundColor="#1b4332"
+                            HeightRequest="110"
+                            WidthRequest="110"
+                            CornerRadius="55"
+                            IsClippedToBounds="True"
+                            HasShadow="True">
+
+                            <Image
+                                x:Name="imgProducto"
+                                Source="daycoffee.jpeg"
+                                Aspect="AspectFit"
+                                HeightRequest="135"
+                                WidthRequest="135"/>
+                        </Frame>
+
+                        <Label
+                            x:Name="lbNombre"
+                            Text="Café del día: Chocolate 100% Mexicano"
+                            FontSize="25"
+                            Grid.Row="0"
+                            Grid.Column="1"
+                            HorizontalOptions="Center"/>
+
+                        <Label
+                            x:Name="lbTamano"
+                            Text="Grande (16oz - 437ml)"
+                            FontSize="18"
+                            Grid.Row="1"
+                            Grid.Column="1"
+                            HorizontalOptions="Center"/>
+
+                        <Label
+                            x:Name="lbCalorias"
+                            Text="20 calorías"
+                            FontSize="18"
+                            Grid.Row="2"
+                            Grid.Column="1"
+                            Margin="33,0"/>
+
+                        <Label
+                            x:Name="lbLeche"
+                            Text="Sin leche"
+                            FontSize="18"
+                            Grid.Row="3"
+                            Grid.Column="1"
+                            Margin="33,0"/>
+
+                        <Stepper
+                            x:Name="stpCantidad"
+                            Grid.Row="4"
+                            Grid.Column="1"
+                            Margin="30,6"
+                            Minimum="1"
+                            Value="1"
+                            Increment="1"
+                            ValueChanged="stpCantidad_ValueChanged"/>
+
+                        <Label
+                            Text="*Cupón aplicado a este producto"
+                            FontSize="18"
+                            TextColor="Black"
+                            Grid.Row="5"
+                            Grid.Column="1"
+                            Grid.ColumnSpan="2"
+                            Margin="33,0"/>
+
+                        <Label
+                            x:Name="lbPrecio"
+                            Text="- $ 38.00"
+                            FontSize="25"
+                            Grid.Row="0"
+                            Grid.Column="2"/>
+
+                        <Label
+                            x:Name="lbCantidad"
+                            Text="1"
+                            FontSize="18"
+                            Grid.Row="4"
+                            Grid.Column="2"
+                            Margin="0,10"/>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+
+            <Label
+                Text="TAMBIÉN TE PUEDE GUSTAR"
+                FontSize="20"
+                TextColor="Black"
+                Grid.Row="2"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Margin="10,25,0,0"/>
+
+            <Frame
+                Grid.Row="3"
+                Grid.Column="0"
+                BackgroundColor="#1b4332"
+                HeightRequest="110"
+                WidthRequest="110"
+                CornerRadius="55"
+                IsClippedToBounds="True"
+                HasShadow="True">
+
+                <ImageButton
+                    x:Name="imgChessecake"
+                    Source="cheesecake.png"
+                    Aspect="AspectFit"
+                    HeightRequest="135"
+                    WidthRequest="135"
+                    Clicked="imgChessecake_Clicked"/>
+            </Frame>
+
+            <Label
+                Text="Cheesecake Roulet"
+                FontSize="23"
+                TextColor="Black"
+                Grid.Row="4"
+                Grid.Column="0"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"/>
+
+            <Frame
+                Grid.Row="3"
+                Grid.Column="1"
+                BackgroundColor="#1b4332"
+                HeightRequest="110"
+                WidthRequest="110"
+                CornerRadius="55"
+                IsClippedToBounds="True"
+                HasShadow="True">
+
+                <ImageButton
+                    x:Name="imgCaramel"
+                    Source="caramel.png"
+                    Aspect="AspectFit"
+                    HeightRequest="135"
+                    WidthRequest="135"
+                    Clicked="imgCaramel_Clicked"/>
+            </Frame>
+
+            <Label
+                Text="Caramel Macchiato"
+                FontSize="23"
+                TextColor="Black"
+                Grid.Row="4"
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"/>
+
+            <Frame
+                Grid.Row="3"
+                Grid.Column="2"
+                BackgroundColor="#1b4332"
+                HeightRequest="110"
+                WidthRequest="110"
+                CornerRadius="55"
+                IsClippedToBounds="True"
+                HasShadow="True">
+
+                <ImageButton
+                    x:Name="imgCroissant"
+                    Source="croissant.png"
+                    Aspect="AspectFit"
+                    HeightRequest="135"
+                    WidthRequest="135"
+                    Clicked="imgCroissant_Clicked"/>
+            </Frame>
+
+            <Label
+                Text="Croissant de Mantequilla"
+                FontSize="23"
+                TextColor="Black"
+                Grid.Row="4"
+                Grid.Column="2"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"/>
+
+            <Frame
+                Grid.Row="5"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                BackgroundColor="#1b4332"
+                HasShadow="True">
+                <StackLayout>      
+                    <Grid>
+                        <Grid.RowDefinitions><!--Horizontal-->
+                            <RowDefinition Height="*"/><!--0-->
+                            <RowDefinition Height="2*"/><!--1-->
+                            <RowDefinition Height="*"/><!--2-->
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions><!--Vertical-->
+                            <ColumnDefinition Width="*"/><!--0-->
+                            <ColumnDefinition Width="*"/><!--1-->
+                        </Grid.ColumnDefinitions>
+                    
+                        <Label
+                            Text="RECOMPENSAS DISPONIBLES"
+                            TextColor="White"
+                            FontSize="20"
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Grid.ColumnSpan="2"/>
+
+                        <Frame
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            BackgroundColor="#40916c"
+                            Margin="0,15,10,0">
+
+                            <StackLayout>
+                                <Grid>
+                                    <Grid.RowDefinitions><!--Horizontal-->
+                                        <RowDefinition Height="*"/><!--0-->
+                                        <RowDefinition Height="*"/><!--1-->
+                                    </Grid.RowDefinitions>
+
+                                    <Grid.ColumnDefinitions><!--Vertical-->
+                                        <ColumnDefinition Width="*"/><!--0-->
+                                        <ColumnDefinition Width="2*"/><!--1-->
+                                    </Grid.ColumnDefinitions>
+
+                                    <Image
+                                        Source="reward.png"
+                                        Grid.Row="0"
+                                        Grid.RowSpan="2"
+                                        Grid.Column="0"
+                                        HeightRequest="60"
+                                        WidthRequest="60"/>
+
+                                    <Label
+                                        Text="Café del día"
+                                        FontSize="18"
+                                        FontAttributes="Bold"
+                                        TextColor="Black"
+                                        Grid.Row="0"
+                                        Grid.Column="1"
+                                        Margin="10,0"/>
+                                    <Label
+                                        Text="Expira: 15/11/2023"
+                                        FontSize="14"
+                                        TextColor="Black"
+                                        Grid.Row="1"
+                                        Grid.Column="1"
+                                        Margin="10,7,0,0"/>
+                                </Grid>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame
+                            Grid.Row="1"
+                            Grid.Column="1"
+                            BackgroundColor="#74c69d"
+                            Margin="10,15,0,0">
+
+                            <StackLayout>
+                                <Grid>
+                                    <Grid.RowDefinitions><!--Horizontal-->
+                                        <RowDefinition Height="*"/><!--0-->
+                                        <RowDefinition Height="*"/><!--1-->
+                                    </Grid.RowDefinitions>
+
+                                    <Grid.ColumnDefinitions><!--Vertical-->
+                                        <ColumnDefinition Width="*"/><!--0-->
+                                        <ColumnDefinition Width="2*"/><!--1-->
+                                    </Grid.ColumnDefinitions>
+
+                                    <Image
+                                        Source="reward.png"
+                                        Grid.Row="0"
+                                        Grid.RowSpan="2"
+                                        Grid.Column="0"
+                                        HeightRequest="60"
+                                        WidthRequest="60"/>
+
+                                    <Label
+                                        Text="Pan del día"
+                                        FontSize="18"
+                                        FontAttributes="Bold"
+                                        TextColor="Black"
+                                        Grid.Row="0"
+                                        Grid.Column="1"
+                                        Margin="10,0"/>
+                                    <Label
+                                        Text="Expira: 30/10/2023"
+                                        FontSize="14"
+                                        TextColor="Black"
+                                        Grid.Row="1"
+                                        Grid.Column="1"
+                                        Margin="10,7,0,0"/>
+                                </Grid>
+                            </StackLayout>
+                        </Frame>
+
+                        <Label
+                            x:Name="lbTotal"
+                            Text="Total.......................................$ 0.00"
+                            FontSize="25"
+                            Grid.Row="2"
+                            Grid.Column="0"
+                            Grid.ColumnSpan="2"
+                            Margin="0,40,0,0"
+                            HorizontalOptions="End"/>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </ContentPage>
+</TabbedPage>

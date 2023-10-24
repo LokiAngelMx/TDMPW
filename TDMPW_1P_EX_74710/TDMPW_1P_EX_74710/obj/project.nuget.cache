@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9xFi/Lt5oekyltZpipgt80n7pL73Pb+kqRvMOnpbkPF2n4lV91jLcE9Z1XnzkA20Bdyd7u38UWvUHiYrlopjHQ==",
+  "dgSpecHash": "ML8GuDMuptqDnrbwAYCVPbbV45HsXp9zahi6Ags3hf4OtvecwZyEir06YY7kxiqdnjysX+cHgs5NFtgbEr2PJw==",
   "success": true,
-  "projectFilePath": "/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/TDMPW_1P_EX_74710/TDMPW_1P_EX_74710/TDMPW_1P_EX_74710.csproj",
+  "projectFilePath": "/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/Prácticas/TDMPW_1P_EX_74710/TDMPW_1P_EX_74710/TDMPW_1P_EX_74710.csproj",
   "expectedPackageFiles": [
     "/Users/loki4ng3l/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",
     "/Users/loki4ng3l/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
@@ -14,7 +14,7 @@
     "/Users/loki4ng3l/.nuget/packages/microsoft.extensions.logging.debug/7.0.0/microsoft.extensions.logging.debug.7.0.0.nupkg.sha512",
     "/Users/loki4ng3l/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/loki4ng3l/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "/Users/loki4ng3l/.nuget/packages/microsoft.maui.graphics/7.0.92/microsoft.maui.graphics.7.0.92.nupkg.sha512",
+    "/Users/loki4ng3l/.nuget/packages/microsoft.maui.graphics/7.0.96/microsoft.maui.graphics.7.0.96.nupkg.sha512",
     "/Users/loki4ng3l/.nuget/packages/xamarin.android.glide/4.13.2.2/xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "/Users/loki4ng3l/.nuget/packages/xamarin.android.glide.annotations/4.13.2.2/xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "/Users/loki4ng3l/.nuget/packages/xamarin.android.glide.disklrucache/4.13.2.2/xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",

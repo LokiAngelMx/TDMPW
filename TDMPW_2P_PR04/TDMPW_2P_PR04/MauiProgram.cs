@@ -13,7 +13,8 @@ public static class MauiProgram
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-			});
+                fonts.AddFont("Halloween.ttf", "Halloween");
+            });
 
 #if DEBUG
 		builder.Logging.AddDebug();
@@ -22,4 +23,3 @@ public static class MauiProgram
 		return builder.Build();
 	}
 }
-

@@ -1,20 +1,24 @@
 ﻿<Properties StartupConfiguration="{C1906392-A9D0-46E1-AF4C-84D97ABE2339}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="TDMPW_2P_PR03/MainPage.xaml.cs">
     <Files>
-      <File FileName="TDMPW_2P_PR03/MainPage.xaml" Line="126" Column="15" />
-      <File FileName="TDMPW_2P_PR03/MainPage.xaml.cs" Line="80" Column="19" />
+      <File FileName="TDMPW_2P_PR03/MainPage.xaml" Line="20" Column="27" />
+      <File FileName="TDMPW_2P_PR03/MainPage.xaml.cs" Line="10" Column="23" />
+      <File FileName="TDMPW_2P_PR03/Resources/Raw/frases.txt" />
+      <File FileName="TDMPW_2P_PR03/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="TDMPW_2P_PR03/MauiProgram.cs" Line="9" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TDMPW_2P_PR03" expanded="True">
-            <Node name="TDMPW_2P_PR03" expanded="True">
+            <Node name="TDMPW_2P_PR03">
+              <Node name="Resources" expanded="True">
+                <Node name="Fonts" expanded="True" />
+                <Node name="Raw" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True">
                 <Node name="MainPage.xaml.cs" selected="True" />
               </Node>
@@ -25,5 +29,9 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.TDMPW__2P__PR03 PreferredExecutionTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

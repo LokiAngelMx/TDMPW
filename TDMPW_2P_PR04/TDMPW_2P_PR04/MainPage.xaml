@@ -3,40 +3,122 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TDMPW_2P_PR04.MainPage">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
+    <Grid x:Name="background">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="1,1">
+                <GradientStopCollection>
+                    <GradientStop Offset="0.0" Color="#d9ed92"/>
+                    <GradientStop Offset="0.20" Color="#b5e48c"/>
+                    <GradientStop Offset="0.40" Color="#99d98c"/>
+                    <GradientStop Offset="0.60" Color="#76c893"/>
+                    <GradientStop Offset="0.80" Color="#52b69a"/>
+                    <GradientStop Offset="1" Color="#34a0a4"/>
+                </GradientStopCollection>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid>
+            <Grid.RowDefinitions><!--Horizontal-->
+                <RowDefinition Height="*"/><!--0-->
+                <RowDefinition Height="2*"/><!--1-->
+                <RowDefinition Height="3*"/><!--2-->
+                <RowDefinition Height="*"/><!--3-->
+                <RowDefinition Height="*"/><!--4-->
+                <RowDefinition Height="2*"/><!--5-->
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions><!-- Vertical -->
+                <ColumnDefinition Width="*"/><!--0-->
+                <ColumnDefinition Width="*"/><!--1-->
+                <ColumnDefinition Width="*"/><!--2-->
+            </Grid.ColumnDefinitions>
+
+            <Label
+                Text="CUESTIONARIO"
+                FontFamily="Halloween"
+                FontSize="55"
+                Grid.Column="1"
+                Grid.Row="0"
+                Margin="0,20,0,0"/>
 
             <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
+                x:Name="imgPrincipal"
+                Source="pyr.jpeg"
+                WidthRequest="600"
+                Grid.Column="1"
+                Grid.Row="1"
+                Margin="0,0,0,10"/>
+
+            <Frame
+                Grid.Row="2"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                Margin="40,0"
+                BackgroundColor="Black"
+                HasShadow="True">
+
+                <Grid>
+                    <Grid.RowDefinitions><!--Horizontal-->
+                        <RowDefinition Height="*"/><!--0-->
+                        <RowDefinition Height="*"/><!--1-->
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions><!-- Vertical -->
+                        <ColumnDefinition Width="*"/><!--0-->
+                    </Grid.ColumnDefinitions>
+
+                    <Label
+                        x:Name="lbPregunta"
+                        Text="Pregunta"
+                        TextColor="White"
+                        FontSize="40"
+                        HorizontalOptions="Center"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Margin="50,0"/>
+
+                    <Entry
+                        x:Name="lbRespuesta"
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Margin="50,0"
+                        BackgroundColor="White"
+                        TextColor="Black"
+                        FontSize="25"/>
+                </Grid>
+            </Frame>
 
             <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
+                x:Name="lbPuntos"
+                Text="Puntos:"
+                FontSize="25"
+                TextColor="Black"
+                Grid.Row="3"
+                Grid.Column="1"
+                Margin="0,30,0,0"
+                HorizontalOptions="Center"/>
 
             <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
+                x:Name="lbErrores"
+                Text="Errores:"
+                FontSize="25"
+                TextColor="Black"
+                Grid.Row="4"
+                Grid.Column="1"
+                HorizontalOptions="Center"/>
 
             <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
-
-        </VerticalStackLayout>
-    </ScrollView>
-
+                x:Name="btnSiguiente"
+                Text="SIGUIENTE"
+                FontFamily="Halloween"
+                FontSize="80"
+                Grid.Row="5"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                Margin="100,0,100,30"
+                BackgroundColor="Black"
+                Opacity=".4"
+                Clicked="btnSiguiente_Clicked"/>
+        </Grid>
+    </Grid>
 </ContentPage>
-

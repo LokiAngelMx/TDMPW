@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5uIy+0qPAoXiDzWXvb5fUMkasXZnWCIqz+PyqzmxUgaGqn+RCieCcBA98yw1L2KNJ+OBmAU415J/4vsucqO6Mw==",
+  "dgSpecHash": "PpTtG4nIjNyKBrPKlTy8JY+5zuL5pQneH+FdoSnEyiJNYf0x6behG75Otgbf3VLR1ugU4QmAc8yEOXDxCxcbzw==",
   "success": true,
   "projectFilePath": "/Users/loki4ng3l/Library/CloudStorage/OneDrive-Personal/Documentos/Universidad/4° Semestre/Desarrollo Móvil/Prácticas/TDMPW_2P_PR03/TDMPW_2P_PR03/TDMPW_2P_PR03.csproj",
   "expectedPackageFiles": [
@@ -15,7 +15,7 @@
     "/Users/loki4ng3l/.nuget/packages/microsoft.extensions.logging.debug/7.0.0/microsoft.extensions.logging.debug.7.0.0.nupkg.sha512",
     "/Users/loki4ng3l/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/loki4ng3l/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "/Users/loki4ng3l/.nuget/packages/microsoft.maui.graphics/7.0.92/microsoft.maui.graphics.7.0.92.nupkg.sha512",
+    "/Users/loki4ng3l/.nuget/packages/microsoft.maui.graphics/7.0.96/microsoft.maui.graphics.7.0.96.nupkg.sha512",
     "/Users/loki4ng3l/.nuget/packages/xamarin.android.glide/4.13.2.2/xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "/Users/loki4ng3l/.nuget/packages/xamarin.android.glide.annotations/4.13.2.2/xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "/Users/loki4ng3l/.nuget/packages/xamarin.android.glide.disklrucache/4.13.2.2/xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",

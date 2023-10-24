@@ -1,4 +1,33 @@
 ﻿<Properties StartupConfiguration="{81391A3F-68AA-486B-B3B6-3CD0C831EE01}|Default">
-  <MonoDevelop.Ide.ItemProperties.TDMPW__2P__PR04 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.TDMPW__2P__PR04 PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="TDMPW_2P_PR04/MainPage.xaml.cs">
+    <Files>
+      <File FileName="TDMPW_2P_PR04/MainPage.xaml" Line="19" Column="1" />
+      <File FileName="TDMPW_2P_PR04/MainPage.xaml.cs" Line="11" Column="23" />
+      <File FileName="TDMPW_2P_PR04/App.xaml.cs" />
+      <File FileName="TDMPW_2P_PR04/MauiProgram.cs" />
+      <File FileName="TDMPW_2P_PR04/Resources/Raw/Preguntas.txt" />
+      <File FileName="TDMPW_2P_PR04/Resources/Raw/Respuestas.txt" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TDMPW_2P_PR04" expanded="True">
+            <Node name="TDMPW_2P_PR04" expanded="True">
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
