@@ -153,4 +153,9 @@ public partial class MainPage : ContentPage
         lblPoints.Text = $"Puntos: {score}";
         lblErrors.Text = $"Errores: {errors}";
     }
+
+    void lbRespuesta_Completed(System.Object sender, System.EventArgs e)
+    {
+        btnSiguiente_Clicked(btnSiguiente, e);
+    }
 }
