@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_3P_EX_74710.MVVM.Views.MateriaView">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <!-- Estilo para Entry -->
+            <Style TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="Margin" Value="5"/>
+                <Setter Property="FontSize" Value="Medium"/>
+            </Style>
+
+            <!-- Estilo para Label -->
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="#fff"/>
+                <Setter Property="Margin" Value="5"/>
+                <Setter Property="FontSize" Value="Medium"/>
+            </Style>
+
+            <!-- Estilo para Button -->
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#D63230"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="Large"/>
+                <Setter Property="CornerRadius" Value="20"/>
+                <Setter Property="Margin" Value="10"/>
+                <Setter Property="HeightRequest" Value="50"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid Padding="10">
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#1C77C3" Offset="0.1"/>
+                <GradientStop Color="#F39237" Offset="1.0"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <ScrollView>
+            <StackLayout Spacing="10">
+                <Label Text="(Materia)"
+                       FontSize="150"
+                       FontFamily="Navidad"
+                       HorizontalOptions="Center"
+                       TextColor="White"
+                       Margin="0,10,0,20" />
+
+                <!-- Nombre de la materia -->
+                <Entry Placeholder="Nombre de la materia"
+                        Text="{Binding Materia.Nombre}" />
+
+                <!-- Rubro 1 -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/> <!-- Tamaño para el nombre del rubro -->
+                        <ColumnDefinition Width="*"/>  <!-- Tamaño para el porcentaje -->
+                        <ColumnDefinition Width="Auto"/> <!-- Para el símbolo % -->
+                    </Grid.ColumnDefinitions>
+                    <Entry Grid.Column="0" Placeholder="Rubro 1" />
+                    <Entry Grid.Column="1" Keyboard="Numeric" Text="{Binding Materia.Rubros[0]}" />
+                    <Label Grid.Column="2" Text="%" VerticalOptions="Center" HorizontalOptions="Start" TextColor="White"/>
+                </Grid>
+
+                <!-- Calificación Rubro 1 -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Calificación Rubro 1" Grid.Column="0" VerticalOptions="Center"/>
+                    <Entry Keyboard="Numeric" Text="{Binding Materia.Calificaciones[0]}" Grid.Column="1" Margin="230,0,30,0"/>
+                </Grid>
+
+                <!-- Rubro 2 -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Entry Grid.Column="0" Placeholder="Rubro 2" />
+                    <Entry Grid.Column="1" Keyboard="Numeric" Text="{Binding Materia.Rubros[1]}" />
+                    <Label Grid.Column="2" Text="%" VerticalOptions="Center" HorizontalOptions="Start" TextColor="White"/>
+                </Grid>
+
+                <!-- Calificación Rubro 2 -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Calificación Rubro 2" Grid.Column="0" VerticalOptions="Center"/>
+                    <Entry Keyboard="Numeric" Text="{Binding Materia.Calificaciones[1]}" Grid.Column="1" Margin="230,0,30,0"/>
+                </Grid>
+
+                <!-- Rubro 3 -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Entry Grid.Column="0" Placeholder="Rubro 3" />
+                    <Entry Grid.Column="1" Keyboard="Numeric" Text="{Binding Materia.Rubros[2]}" />
+                    <Label Grid.Column="2" Text="%" VerticalOptions="Center" HorizontalOptions="Start" TextColor="White"/>
+                </Grid>
+
+                <!-- Calificación Rubro 3 -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Calificación Rubro 3" Grid.Column="0" VerticalOptions="Center"/>
+                    <Entry Keyboard="Numeric" Text="{Binding Materia.Calificaciones[2]}" Grid.Column="1" Margin="230,0,30,0"/>
+                </Grid>
+
+                <!-- Botón para calcular la calificación final -->
+                <Button Text="Calcular Calificación Final"
+                        Command="{Binding CalcularCalificacionCommand}" />
+
+                <!-- Etiqueta para mostrar la calificación final -->
+                <Label Text="{Binding CalificacionFinalTexto}" />
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

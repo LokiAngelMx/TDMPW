@@ -1,10 +1,8 @@
 ﻿<Properties StartupConfiguration="{47BF4A41-C92F-4A24-B024-939C3AC8AC59}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.TDMPW__3P__EJ01 PreferredExecutionTarget="Android.SelectDevice" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.TDMPW__3P__EJ01 FirstBuild="True" PreferredExecutionTarget="Android.SelectDevice" />
   <MonoDevelop.Ide.Workbench ActiveDocument="TDMPW_3P_EJ01/MainPage.xaml">
     <Files>
       <File FileName="TDMPW_3P_EJ01/MainPage.xaml" Line="41" Column="15" />
@@ -14,8 +12,8 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TDMPW_3P_EJ01" expanded="True">
-            <Node name="TDMPW_3P_EJ01">
-              <Node name="MainPage.xaml" selected="True" />
+            <Node name="TDMPW_3P_EJ01" expanded="True">
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>
@@ -23,5 +21,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

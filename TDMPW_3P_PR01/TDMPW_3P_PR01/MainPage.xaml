@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_3P_PR01.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            VerticalOptions="Center"
+            Spacing="15">
+
+            <Label 
+                Text="Elige una Receta" 
+                FontSize="32" 
+                HorizontalOptions="Center"
+                TextColor="#4a4a4a"
+                Margin="0,30"/>
+
+            <Button
+                x:Name="RecetaUno"
+                Text="Ensalada Caprese de Pasta"
+                TextColor="#ffffff"
+                FontSize="18"
+                HorizontalOptions="FillAndExpand"
+                BackgroundColor="#007acc"
+                Padding="10"
+                Margin="20"
+                Clicked="RecetaUno_Clicked"/>
+
+            <Button
+                x:Name="RecetaDos"
+                Text="Salmón al Horno con Eneldo"
+                TextColor="#ffffff"
+                FontSize="18"
+                HorizontalOptions="FillAndExpand"
+                BackgroundColor="#00b894"
+                Padding="10"
+                Margin="20"
+                Clicked="RecetaDos_Clicked"/>
+
+            <Button
+                x:Name="RecetaTres"
+                Text="Tacos de Carne Molida"
+                TextColor="#ffffff"
+                FontSize="18"
+                HorizontalOptions="FillAndExpand"
+                BackgroundColor="#e17055"
+                Padding="10"
+                Margin="20"
+                Clicked="RecetaTres_Clicked"/>
+
+            <Button
+                x:Name="RecetaCuatro"
+                Text="Arroz Frito con Verduras"
+                TextColor="#ffffff"
+                FontSize="18"
+                HorizontalOptions="FillAndExpand"
+                BackgroundColor="#6c5ce7"
+                Padding="10"
+                Margin="20"
+                Clicked="RecetaCuatro_Clicked"/>
+
+            <Button
+                x:Name="RecetaCinco"
+                Text="Hummus Casero"
+                TextColor="#ffffff"
+                FontSize="18"
+                HorizontalOptions="FillAndExpand"
+                BackgroundColor="#d63031"
+                Padding="10"
+                Margin="20"
+                Clicked="RecetaCinco_Clicked"/>
+
+            <Frame Margin="25" BackgroundColor="#ffffff"
+                   CornerRadius="15"
+                   HasShadow="True"
+                   WidthRequest="480"
+                   HeightRequest="270"
+                   IsClippedToBounds="True">
+
+                <Image
+                    Source="{ Binding NombreImagen }"
+                    HorizontalOptions="Center"
+                    WidthRequest="480"
+                    HeightRequest="480"
+                    Margin="0, 25"/>
+            </Frame>
+
+            <Frame Margin="25" BackgroundColor="#ffffff"
+                   CornerRadius="15"
+                   HasShadow="True">
+                <Label
+                    Text="{ Binding ListaIngredientes }"
+                    FontSize="18"
+                    Padding="15"
+                    TextColor="#333"/>
+            </Frame>
+
+            <Frame Margin="25" BackgroundColor="#ffffff"
+                   CornerRadius="15"
+                   HasShadow="True">
+                <Label
+                    Text="{ Binding Procedimiento }"
+                    FontSize="18"
+                    Padding="15"
+                    TextColor="#333"/>
+            </Frame>
+
+            <Frame Margin="25" BackgroundColor="#ffffff"
+                   CornerRadius="15"
+                   HasShadow="True">
+                <Label
+                    Text="{ Binding NivelDificultad }"
+                    FontSize="18"
+                    Padding="15"
+                    TextColor="#333"/>
+            </Frame>
+
+            <Frame Margin="25" BackgroundColor="#ffffff"
+                   CornerRadius="15"
+                   HasShadow="True">
+                <Label
+                    Text="{ Binding Clasificacion }"
+                    FontSize="18"
+                    Padding="15"
+                    TextColor="#333"/>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{0FCA4DE7-7882-4BF1-9F85-1312BC37FA8A}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TDMPW__3P__EX__74710 PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TDMPW_3P_EX_74710/MVVM/Views/SemestreView.xaml">
+    <Files>
+      <File FileName="TDMPW_3P_EX_74710/App.xaml.cs" />
+      <File FileName="TDMPW_3P_EX_74710/MauiProgram.cs" />
+      <File FileName="TDMPW_3P_EX_74710/MainPage.xaml" Line="48" Column="15" />
+      <File FileName="TDMPW_3P_EX_74710/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="TDMPW_3P_EX_74710/MVVM/Models/Materia.cs" Line="1" Column="1" />
+      <File FileName="TDMPW_3P_EX_74710/MVVM/ViewModels/MateriaViewModel.cs" Line="1" Column="1" />
+      <File FileName="TDMPW_3P_EX_74710/MVVM/Views/MateriaView.xaml" Line="45" Column="39" />
+      <File FileName="TDMPW_3P_EX_74710/MVVM/Views/MateriaView.xaml.cs" />
+      <File FileName="TDMPW_3P_EX_74710/MVVM/Models/Semestre.cs" Line="1" Column="1" />
+      <File FileName="TDMPW_3P_EX_74710/MVVM/ViewModels/SemestreViewModel.cs" Line="1" Column="1" />
+      <File FileName="TDMPW_3P_EX_74710/MVVM/Views/SemestreView.xaml" Line="115" Column="15" />
+      <File FileName="TDMPW_3P_EX_74710/MVVM/Views/SemestreView.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TDMPW_3P_EX_74710" expanded="True">
+            <Node name="TDMPW_3P_EX_74710">
+              <Node name="MVVM" expanded="True">
+                <Node name="Models" expanded="True" />
+                <Node name="ViewModels" expanded="True" />
+                <Node name="Views" expanded="True">
+                  <Node name="SemestreView.xaml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

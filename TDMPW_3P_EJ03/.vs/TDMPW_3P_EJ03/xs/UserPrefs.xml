@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{46A27ED3-AA6B-4013-9356-EF183DDBE430}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TDMPW__3P__EJ03 PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TDMPW_3P_EJ03/MVVM/Views/DolarView.xaml">
+    <Files>
+      <File FileName="TDMPW_3P_EJ03/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="TDMPW_3P_EJ03/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="TDMPW_3P_EJ03/MVVM/Models/Dolar.cs" Line="3" Column="1" />
+      <File FileName="TDMPW_3P_EJ03/MVVM/ViewModels/DolarViewModel.cs" Line="33" Column="23" />
+      <File FileName="TDMPW_3P_EJ03/MVVM/Views/DolarView.xaml" Line="24" Column="1" />
+      <File FileName="TDMPW_3P_EJ03/MVVM/Views/DolarView.xaml.cs" Line="9" Column="24" />
+      <File FileName="TDMPW_3P_EJ03/App.xaml.cs" Line="12" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TDMPW_3P_EJ03" expanded="True">
+            <Node name="TDMPW_3P_EJ03">
+              <Node name="MVVM" expanded="True">
+                <Node name="Models" expanded="True" />
+                <Node name="ViewModels" expanded="True" />
+                <Node name="Views" expanded="True">
+                  <Node name="DolarView.xaml" expanded="True" selected="True" />
+                </Node>
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+</Properties>

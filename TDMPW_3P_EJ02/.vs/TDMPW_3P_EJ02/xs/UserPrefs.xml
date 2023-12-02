@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{4594C62F-2FCF-4AAB-B079-20E489014FBE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TDMPW_3P_EJ02/MVVM/Models/Person.cs">
+    <Files>
+      <File FileName="TDMPW_3P_EJ02/MainPage.xaml" Line="39" Column="15" />
+      <File FileName="TDMPW_3P_EJ02/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="TDMPW_3P_EJ02/MVVM/Models/Person.cs" Line="21" Column="2" />
+      <File FileName="TDMPW_3P_EJ02/MVVM/Views/PersonView.xaml" Line="12" Column="38" />
+      <File FileName="TDMPW_3P_EJ02/MVVM/Views/PersonView.xaml.cs" Line="12" Column="2" />
+      <File FileName="TDMPW_3P_EJ02/MVVM/ViewModels/PersonViewModel.cs" Line="15" Column="70" />
+      <File FileName="TDMPW_3P_EJ02/App.xaml.cs" Line="13" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TDMPW_3P_EJ02" expanded="True">
+            <Node name="TDMPW_3P_EJ02">
+              <Node name="MVVM" expanded="True">
+                <Node name="Models" expanded="True">
+                  <Node name="Person.cs" selected="True" />
+                </Node>
+                <Node name="ViewModels" expanded="True" />
+                <Node name="Views" expanded="True">
+                  <Node name="PersonView.xaml" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.TDMPW__3P__EJ02 PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+</Properties>

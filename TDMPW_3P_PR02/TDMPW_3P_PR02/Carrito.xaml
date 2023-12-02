@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_3P_PR02.Carrito"
+             Title="Carrito">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.5*" />
+            <RowDefinition Height="7*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>        
+
+        <Frame
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Grid.Row="0"
+            BackgroundColor="LightGray"
+            BorderColor="LightGray"
+            HasShadow="True">
+            <ScrollView>
+                <Label Text="Tu carrito" TextColor="Black" FontSize="50" FontFamily="Lemon" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
+                    />
+            </ScrollView>
+        </Frame>
+
+        <ScrollView
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Grid.Row="1">
+            <Frame
+                BackgroundColor="White"
+                BorderColor="White"
+                >
+                <StackLayout>
+                    <!-- 
+                    <Frame BackgroundColor="White" Padding="20,20,10,20">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="3*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Column="0" Grid.Row="0" Text="Desayuno americano" FontSize="25" TextColor="Black" Margin="0,0,0,10"
+                                />
+                            <Label Grid.Column="0" Grid.Row="1" Text="1500 kcal" FontSize="20" TextColor="Gray"
+                                />
+                            <Label Grid.Column="0" Grid.Row="2" Text="Comida rápida" FontSize="20" TextColor="Gray"
+                                />
+                            <Label Grid.Column="0" Grid.Row="3" Text="$150" FontSize="20" TextColor="Black" Margin="0,10,0,0"
+                                />
+
+                            <Frame
+                                Grid.Column="1"
+                                Grid.Row="0"
+                                Grid.RowSpan="4"
+                                HeightRequest="120"
+                                WidthRequest="120"
+                                CornerRadius="20"
+                                HorizontalOptions="EndAndExpand"
+                                VerticalOptions="CenterAndExpand"
+                                Margin="0,0,20,0"
+                                IsClippedToBounds="True"
+                                BorderColor="#adb5bd"
+                                BackgroundColor="#adb5bd"
+                                HasShadow="True">
+
+                                <Image
+                                    Source="mc_trio1.png"
+                                    Aspect="AspectFill"
+                                    HeightRequest="120"
+                                    WidthRequest="120"
+                                    />
+                            </Frame>
+                        </Grid>
+                    </Frame>
+                    -->
+                    <Frame BackgroundColor="White" Padding="20,20,10,20">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="3*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Column="0" Grid.Row="0" Text="Desayuno Gourmet" FontSize="25" TextColor="Black" Margin="0,0,0,10"
+                                />
+                            <Label Grid.Column="0" Grid.Row="1" Text="2000 kcal" FontSize="20" TextColor="Gray"
+                                />
+                            <Label Grid.Column="0" Grid.Row="2" Text="Comida rápida" FontSize="20" TextColor="Gray"
+                                />
+                            <Label Grid.Column="0" Grid.Row="3" Text="$200" FontSize="20" TextColor="Black" Margin="0,10,0,0"
+                                />
+
+                            <Frame
+                                Grid.Column="1"
+                                Grid.Row="0"
+                                Grid.RowSpan="4"
+                                HeightRequest="120"
+                                WidthRequest="120"
+                                CornerRadius="20"
+                                HorizontalOptions="EndAndExpand"
+                                VerticalOptions="CenterAndExpand"
+                                Margin="0,0,20,0"
+                                IsClippedToBounds="True"
+                                BorderColor="#adb5bd"
+                                BackgroundColor="#adb5bd"
+                                HasShadow="True">
+
+                                <Image
+                                    Source="mc_trio2.png"
+                                    Aspect="AspectFill"
+                                    HeightRequest="120"
+                                    WidthRequest="120"
+                                    />
+                            </Frame>
+                        </Grid>
+                    </Frame>
+                    <!--
+                    <Frame BackgroundColor="White" Padding="20,20,10,20">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="3*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Column="0" Grid.Row="0" Text="2 Hamburguesas y jugo" FontSize="25" TextColor="Black" Margin="0,0,0,10"
+                                />
+                            <Label Grid.Column="0" Grid.Row="1" Text="750 kcal" FontSize="20" TextColor="Gray"
+                                />
+                            <Label Grid.Column="0" Grid.Row="2" Text="Comida rápida" FontSize="20" TextColor="Gray"
+                                />
+                            <Label Grid.Column="0" Grid.Row="3" Text="$120" FontSize="20" TextColor="Black" Margin="0,10,0,0"
+                                />
+
+                            <Frame
+                                Grid.Column="1"
+                                Grid.Row="0"
+                                Grid.RowSpan="4"
+                                HeightRequest="120"
+                                WidthRequest="120"
+                                CornerRadius="20"
+                                HorizontalOptions="EndAndExpand"
+                                VerticalOptions="CenterAndExpand"
+                                Margin="0,0,20,0"
+                                IsClippedToBounds="True"
+                                BorderColor="#adb5bd"
+                                BackgroundColor="#adb5bd"
+                                HasShadow="True">
+
+                                <Image
+                                    Source="mc_trio3.png"
+                                    Aspect="AspectFill"
+                                    HeightRequest="120"
+                                    WidthRequest="120"
+                                    />
+                            </Frame>
+                        </Grid>
+                    </Frame>
+                    -->
+                    <Frame BackgroundColor="White" Padding="20,20,10,20">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="3*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Column="0" Grid.Row="0" Text="Combo 2 pa 2" FontSize="25" TextColor="Black" Margin="0,0,0,10"
+                                />
+                            <Label Grid.Column="0" Grid.Row="1" Text="800 kcal" FontSize="20" TextColor="Gray"
+                                />
+                            <Label Grid.Column="0" Grid.Row="2" Text="Comida rápida" FontSize="20" TextColor="Gray"
+                                />
+                            <Label Grid.Column="0" Grid.Row="3" Text="$140" FontSize="20" TextColor="Black" Margin="0,10,0,0"
+                                />
+
+                            <Frame
+                                Grid.Column="1"
+                                Grid.Row="0"
+                                Grid.RowSpan="4"
+                                HeightRequest="120"
+                                WidthRequest="120"
+                                CornerRadius="20"
+                                HorizontalOptions="EndAndExpand"
+                                VerticalOptions="CenterAndExpand"
+                                Margin="0,0,20,0"
+                                IsClippedToBounds="True"
+                                BorderColor="#adb5bd"
+                                BackgroundColor="#adb5bd"
+                                HasShadow="True">
+
+                                <Image
+                                    Source="mc_trio4.png"
+                                    Aspect="AspectFill"
+                                    HeightRequest="120"
+                                    WidthRequest="120"
+                                    />
+                            </Frame>
+                        </Grid>
+                    </Frame>
+                    <!--
+                    <Frame BackgroundColor="White" Padding="20,20,10,20">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="3*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Column="0" Grid.Row="0" Text="3 Molletes " FontSize="25" TextColor="Black" Margin="0,0,0,10"
+                                />
+                            <Label Grid.Column="0" Grid.Row="1" Text="900 kcal" FontSize="20" TextColor="Gray"
+                                />
+                            <Label Grid.Column="0" Grid.Row="2" Text="Cocinado con amor" FontSize="20" TextColor="Gray"
+                                />
+                            <Label Grid.Column="0" Grid.Row="3" Text="$90" FontSize="20" TextColor="Black" Margin="0,10,0,0"
+                                />
+
+                            <Frame
+                                Grid.Column="1"
+                                Grid.Row="0"
+                                Grid.RowSpan="4"
+                                HeightRequest="120"
+                                WidthRequest="120"
+                                CornerRadius="20"
+                                HorizontalOptions="EndAndExpand"
+                                VerticalOptions="CenterAndExpand"
+                                Margin="0,0,20,0"
+                                IsClippedToBounds="True"
+                                BorderColor="#adb5bd"
+                                BackgroundColor="#adb5bd"
+                                HasShadow="True">
+
+                                <Image
+                                    Source="mc_trio5.png"
+                                    Aspect="AspectFill"
+                                    HeightRequest="120"
+                                    WidthRequest="120"
+                                    />
+                            </Frame>
+                        </Grid>
+                    </Frame>
+                    -->
+                    <Frame BackgroundColor="White" Padding="20,20,10,20">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="3*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Column="0" Grid.Row="0" Text="Desayuno Godín" FontSize="25" TextColor="Black" Margin="0,0,0,10"
+                                />
+                            <Label Grid.Column="0" Grid.Row="1" Text="600 kcal" FontSize="20" TextColor="Gray"
+                                />
+                            <Label Grid.Column="0" Grid.Row="2" Text="Comida express" FontSize="20" TextColor="Gray"
+                                />
+                            <Label Grid.Column="0" Grid.Row="3" Text="$70" FontSize="20" TextColor="Black" Margin="0,10,0,0"
+                                />
+
+                            <Frame
+                                Grid.Column="1"
+                                Grid.Row="0"
+                                Grid.RowSpan="4"
+                                HeightRequest="120"
+                                WidthRequest="120"
+                                CornerRadius="20"
+                                HorizontalOptions="EndAndExpand"
+                                VerticalOptions="CenterAndExpand"
+                                Margin="0,0,20,0"
+                                IsClippedToBounds="True"
+                                BorderColor="#adb5bd"
+                                BackgroundColor="#adb5bd"
+                                HasShadow="True">
+
+                                <Image
+                                    Source="mc_trio6.png"
+                                    Aspect="AspectFill"
+                                    HeightRequest="120"
+                                    WidthRequest="120"
+                                    />
+                            </Frame>
+                        </Grid>
+                    </Frame>
+                    <!--
+                    <Frame BackgroundColor="White" Padding="20,20,10,20">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="3*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Column="0" Grid.Row="0" Text="Combo Solitario" FontSize="25" TextColor="Black" Margin="0,0,0,10"
+                                />
+                            <Label Grid.Column="0" Grid.Row="1" Text="700 kcal" FontSize="20" TextColor="Gray"
+                                />
+                            <Label Grid.Column="0" Grid.Row="2" Text="Comida express" FontSize="20" TextColor="Gray"
+                                />
+                            <Label Grid.Column="0" Grid.Row="3" Text="$80" FontSize="20" TextColor="Black" Margin="0,10,0,0"
+                                />
+
+                            <Frame
+                                Grid.Column="1"
+                                Grid.Row="0"
+                                Grid.RowSpan="4"
+                                HeightRequest="120"
+                                WidthRequest="120"
+                                CornerRadius="20"
+                                HorizontalOptions="EndAndExpand"
+                                VerticalOptions="CenterAndExpand"
+                                Margin="0,0,20,0"
+                                IsClippedToBounds="True"
+                                BorderColor="#adb5bd"
+                                BackgroundColor="#adb5bd"
+                                HasShadow="True">
+
+                                <Image
+                                    Source="mc_trio7.png"
+                                    Aspect="AspectFill"
+                                    HeightRequest="120"
+                                    WidthRequest="120"
+                                    />
+                            </Frame>
+                        </Grid>
+                    </Frame>
+                    -->
+                </StackLayout>
+            </Frame>
+        </ScrollView>
+
+        <Frame
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Grid.Row="3"
+            BackgroundColor="LightGray"
+            BorderColor="LightGray"
+            HasShadow="True">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="3*" />
+                </Grid.RowDefinitions>
+
+                <Label Grid.Column="0" Grid.Row="0" Text="Total" TextColor="Black" FontSize="20" Margin="20,0,0,0" VerticalOptions="StartAndExpand"/>
+                <Label Grid.Column="0" Grid.Row="1" Text="$410" TextColor="Black" FontSize="25" Margin="20,0,0,0" VerticalOptions="EndAndExpand"/>
+                <Button Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" BackgroundColor="#29d884"
+                    Text="Pagar" FontSize="25" TextColor="White" CornerRadius="30"
+                />
+            </Grid>
+        </Frame>
+    </Grid>
+</ContentPage>
